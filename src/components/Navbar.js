@@ -1,5 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { LinkedInIcon, GithubIcon, TwitterIcon } from './Icons'
+
 
 
 const NavBar = () => {
@@ -7,23 +9,31 @@ const NavBar = () => {
     return (
         <>
         <header className='w-full px-32 py-8 font-medium flex justify-between items-center'> 
-            <nav>
+            <nav className='text-primary'>
                 <a href=''>HOME</a>
                 <a href=''>ABOUT</a>
                 <a href=''>PROJECTS</a>
                 <a href=''>CONTACT ME</a>
             </nav>
-            <nav>
-            <motion.a href="https://www.linkedin.com/in/kayisha-ulysse/" target={"_blank"} className="w-6 ml-3"
+            <nav className="text-primaryDark flex items-center justify-center flex-wrap">
+                <motion.a href="https://twitter.com/kaiusse" target={"_blank"}
+                whileHover={{y:-2}}
+                whileTap={{scale:0.9}}
+                className="w-6 mx-3">
+                    <TwitterIcon />
+                </motion.a>
+                <motion.a href="https://github.com/kayishau" target={"_blank"} className="w-6 mx-3"
                  whileHover={{y:-2}}
                  whileTap={{scale:0.9}}>
-                    {/* <LinkedInIcon /> */}
-                    LinkedInIcon
+                    <GithubIcon />
                 </motion.a>
-                <a href=''>Twitter</a>
-                <a href=''>Github</a>
+                <motion.a href="https://www.linkedin.com/in/kayisha-ulysse/" target={"_blank"} className="w-6 ml-3"
+                 whileHover={{y:-2}}
+                 whileTap={{scale:0.9}}>
+                    <LinkedInIcon />
+                </motion.a>      
             </nav>
-        <h1 className='text-primary'>NavBar</h1>
+            
         </header>
     
         </>
