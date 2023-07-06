@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { LinkedInIcon, GithubIcon, TwitterIcon } from './Icons'
+import Header from './Header'
 
 
 
@@ -8,12 +9,10 @@ const NavBar = () => {
 
     return (
         <>
+         
         <header className='w-full px-32 py-8 font-medium flex justify-between items-center'> 
             <nav className='text-primary'>
-                <a href=''>HOME</a>
-                <a href=''>ABOUT</a>
-                <a href=''>PROJECTS</a>
-                <a href=''>CONTACT ME</a>
+                <Header />
             </nav>
             <nav className="text-primaryDark flex items-center justify-center flex-wrap">
                 <motion.a href="https://twitter.com/kaiusse" target={"_blank"}

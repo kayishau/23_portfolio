@@ -12,12 +12,11 @@ const Header = () => {
         }
 
         return(
-            <ul key={content}>
+            <ul key={content} className="inline-block px-4">
                 <li>
                     <button
                     onClick={handleClickNav}
                     >{content}</button>
-
                 </li>
             </ul>
         )
@@ -26,8 +25,9 @@ const Header = () => {
     return(
        <header>
         <div>
-            <nav>
+            <nav className="flex">
                 {navLinks.map(nav => renderNavLinks(nav))}
+                <p className="px-4">Contact Me</p>
             </nav>
         </div>
        </header>
