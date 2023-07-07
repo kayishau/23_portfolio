@@ -11,7 +11,7 @@ const App = () => {
     <div className="container mx-auto bg-light min-w-full min-h-screen">
       <div>
        
-        <NavBar />
+        <NavBar className="" />
         <Home />
         <About />
         <Projects />
