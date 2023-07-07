@@ -10,7 +10,7 @@ const NavBar = () => {
     return (
         <>
          
-        <header className='w-full px-32 py-8 font-medium flex justify-between items-center'> 
+        <header className='sticky top-0 w-full px-32 py-8 font-medium flex justify-between items-center'> 
             <nav className='text-primary'>
                 <Header />
             </nav>
