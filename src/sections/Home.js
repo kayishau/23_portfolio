@@ -6,11 +6,12 @@ const Home = () => {
       id="homeSection"
       style={{
         backgroundImage: "url(/img/flower.png)",
+        marginTop: "-70px",
         height: "100vh",
-        backgroundSize: "cover",
+        backgroundSize: "contain",
         backgroundRepeat: "no-repeat",
       }}
-      className="flex items-center justify-center min-h-screen w-full bg-dark "
+      className="flex items-center justify-center min-h-screen w-full"
     >
       <h2> HOME SECTION</h2>
     </section>
