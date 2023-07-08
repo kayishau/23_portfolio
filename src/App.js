@@ -8,7 +8,7 @@ import Projects from "./sections/Projects";
 
 const App = () => {
   return (
-    <div className="container mx-auto bg-gradient-to-r from-cyan-500 to-blue-500 min-w-full min-h-screen">
+    <div className="container mx-auto bg-gradient-to-r from-white to-gradientOne min-w-full min-h-screen">
       <div>
        
         <NavBar />
