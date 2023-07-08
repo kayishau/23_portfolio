@@ -5,12 +5,10 @@ import Home from "./sections/Home";
 import About from "./sections/About";
 import Projects from "./sections/Projects";
 
-
 const App = () => {
   return (
     <div className="container mx-auto bg-gradient-to-r from-white to-gradientOne min-w-full min-h-screen">
       <div>
-       
         <NavBar />
         <Home />
         <About />
