@@ -33,7 +33,10 @@ const Home = ({ childern, className = "" }) => {
 
             <div className="w-1/2 flex flex-col items-center self-center -ml-20">
               <AnimatedText text="Kayisha Ulysse" className="mb-6" />
-              <AnimatedTextWord text="SOFTWARE ENGINEER | DESIGNER | ENVIROMENTALIST | DIVERSITY ADVOCATE" />
+              <AnimatedTextWord text="SOFTWARE ENGINEER | DESIGNER | ENVIROMENTALIST | DIVERSITY ADVOCATE" 
+              style={{
+                textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' 
+              }}/>
 
               <p className="my-6 text-base font-medium">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -58,7 +61,7 @@ const Home = ({ childern, className = "" }) => {
                   target={"_blank"}
                   className="ml-4 text-lg font-medium capitalize text-dark underline"
                 >
-                  <span>Contact Me :)</span>
+                  <span>Contact Me 😊</span>
                 </a>
               </div>
             </div>
