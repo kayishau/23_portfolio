@@ -51,7 +51,7 @@ const Home = ({ childern, className = "" }) => {
                 target={"_blank"}
                 className="ml-4 text-lg font-medium capitalize text-dark underline"
               >
-                Contact
+               <span>Contact Me :)</span>
               </a>
             </div>
           </div>
@@ -62,3 +62,65 @@ const Home = ({ childern, className = "" }) => {
 };
 
 export default Home;
+
+
+// <div class="SE">
+
+// <div class="slider-wrapper">
+
+//     <div class="slider">
+//         <div class="slider-text1">FRONTEND SOFTWARE ENGINEER</div>
+//         <div class="slider-text2">DESIGNER</div>
+//         <div class="slider-text3">ENVIROMENTALIST</div>
+//     </div>
+
+// </div>
+
+// </div>
+
+// .SE {
+//     align-self: center;
+//     font-size: 20px;
+//     margin-bottom: 30px;
+//     color: var(--primary)
+// }
+
+// .slider {
+//     height: 50px;
+//     padding-left: 15px;
+//     overflow: hidden;
+// }
+
+// .slider-text1 {
+//     animation: slide 5s linear infinite;
+// }
+// .slider-text2 {
+//     /* animation: slide 3s linear infinite; */
+// }
+
+// .slider-text3 {
+//     /* animation: slide 3s linear infinite; */
+// }
+
+
+// @keyframes slide {
+//     0% {margin-top: -300px;}
+//     5% {margin-top: -200px;}
+//     33% {margin-top: -200px;}
+//     38% {margin-top: -100px;}
+//     66% {margin-top: -100px;}
+//     71% {margin-top: 0px;}
+//     100% {margin-top: 0px;}
+// }
+
+// .slider div {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     color: --primary;
+//     height: 50px;
+//     margin-bottom: 50px;
+//     padding: 2px 15px;
+//     text-align: center;
+//     box-sizing: border-box;
+//   }
