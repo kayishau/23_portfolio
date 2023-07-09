@@ -7,7 +7,7 @@ const quote = {
     animate:{
         opacity:1,
         transition:{
-            delay:0.8,
+            delay:2.3
             // staggerChildern: 0.08,
         }
     }
@@ -21,7 +21,7 @@ const singleWord = {
         opacity:1,
         y:0,
         transition:{
-            duration:1
+            duration:6
         }
     }
 }

@@ -2,11 +2,13 @@ import React from "react";
 import { LinkArrow } from "../components/Icons";
 import AnimatedText from "../components/AnimatedText";
 import TransitionEffect from "../components/TransitionEffect";
+import AnimatedTextWord from "../components/AnimatedTextWord";
+
 
 const Home = ({ childern, className = "" }) => {
   return (
     <>
-    <TransitionEffect />
+      <TransitionEffect />
       <section
         id="homeSection"
         className="flex items-center justify-center w-full min-h-screen"
@@ -14,8 +16,8 @@ const Home = ({ childern, className = "" }) => {
         <div className={`${className}`}>
           {childern}
 
-          <div className="flex items-center justify-between w-full">
-            <div className="w-1/2 flex items-center justify-center">
+          <div className="flex items-center w-full">
+            <div className="w-1/2 flex items-center justify-center mr-3">
               <div
                 style={{
                   backgroundImage: "url(/img/flower.png)",
@@ -29,9 +31,11 @@ const Home = ({ childern, className = "" }) => {
               ></div>
             </div>
 
-            <div className="w-1/2 flex flex-col items-center self-center px-10">
-              <AnimatedText text="Kayisha Ulysse" />
-              <p className="my-4 text-base font-medium">
+            <div className="w-1/2 flex flex-col items-center self-center -ml-20">
+              <AnimatedText text="Kayisha Ulysse" className="mb-6" />
+              <AnimatedTextWord text="SOFTWARE ENGINEER | DESIGNER | ENVIROMENTALIST | DIVERSITY ADVOCATE" />
+
+              <p className="my-6 text-base font-medium">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -66,63 +70,3 @@ const Home = ({ childern, className = "" }) => {
 };
 
 export default Home;
-
-// <div class="SE">
-
-// <div class="slider-wrapper">
-
-//     <div class="slider">
-//         <div class="slider-text1">FRONTEND SOFTWARE ENGINEER</div>
-//         <div class="slider-text2">DESIGNER</div>
-//         <div class="slider-text3">ENVIROMENTALIST</div>
-//     </div>
-
-// </div>
-
-// </div>
-
-// .SE {
-//     align-self: center;
-//     font-size: 20px;
-//     margin-bottom: 30px;
-//     color: var(--primary)
-// }
-
-// .slider {
-//     height: 50px;
-//     padding-left: 15px;
-//     overflow: hidden;
-// }
-
-// .slider-text1 {
-//     animation: slide 5s linear infinite;
-// }
-// .slider-text2 {
-//     /* animation: slide 3s linear infinite; */
-// }
-
-// .slider-text3 {
-//     /* animation: slide 3s linear infinite; */
-// }
-
-// @keyframes slide {
-//     0% {margin-top: -300px;}
-//     5% {margin-top: -200px;}
-//     33% {margin-top: -200px;}
-//     38% {margin-top: -100px;}
-//     66% {margin-top: -100px;}
-//     71% {margin-top: 0px;}
-//     100% {margin-top: 0px;}
-// }
-
-// .slider div {
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     color: --primary;
-//     height: 50px;
-//     margin-bottom: 50px;
-//     padding: 2px 15px;
-//     text-align: center;
-//     box-sizing: border-box;
-//   }
