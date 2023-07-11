@@ -55,10 +55,12 @@ export default function AboutPictures() {
             ></div>
           </div>
           <div
-            data-aos="fade-right"
-            data-aos-easing="ease-in-sine"
-            data-aos-delay="1000"
-            data-aos-offset="0"
+            // data-aos="fade-right"
+            // data-aos-easing="ease-in-sine"
+            // data-aos-delay="1000"
+            // data-aos-offset="0"
+            data-aos="fade-up"
+            data-aos-duration="2500"
             style={{
               backgroundImage: "url(/img/KU2.png)",
               height: "450px",

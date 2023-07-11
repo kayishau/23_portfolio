@@ -1,8 +1,9 @@
-import React from "react";
+import React,{ useEffect } from "react";
 import { LinkArrow } from "../components/Icons";
 import AnimatedText from "../components/AnimatedText";
 import TransitionEffect from "../components/TransitionEffect";
 import AnimatedTextWord from "../components/AnimatedTextWord";
+
 
 
 const Home = ({ childern, className = "" }) => {
@@ -13,7 +14,8 @@ const Home = ({ childern, className = "" }) => {
         id="homeSection"
         className="flex items-center justify-center w-full min-h-screen"
       >
-        <div className={`${className}`}>
+        <div
+         className={`${className}`}>
           {childern}
 
           <div className="flex items-center w-full">
