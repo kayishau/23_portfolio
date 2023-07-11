@@ -18,7 +18,7 @@ const About = () => {
          {/* Add Picture fade in component here */}
          <AboutPictures />
         </div>
-        <div className="w-1/2 flex flex-col -ml-10 justify-center items-center border border-black">
+        <div className="w-1/2 flex flex-col -ml-10 justify-center items-center">
             {/* add margins so that Animated text overlaos */}
           <div>
             <AnimatedText text="Placeholder slogan!" className="my-6" />
