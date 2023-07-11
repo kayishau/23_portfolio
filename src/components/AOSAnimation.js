@@ -9,16 +9,17 @@ export default function AboutPictures() {
       }, [])
   return (
     <>
-     <div
-      data-aos="fade-right" 
-      className="flex w-full mx-4 min-h-screen items-center justify-center"
-    >
+     <div className="flex w-full mx-4 min-h-screen items-center justify-center">
        {/* <div className="h-20 w-20">
                 <Barbell className={"w-10 h-10"}/>
                 </div> */}
           <div id="picture-stack" className="flex flex-col">
             {/* <Fadein /> */}
             <div
+            data-aos="fade-right"
+            data-aos-easing="ease-in-sine"
+            data-aos-delay="200"
+            data-aos-offset="0"
               style={{
                 backgroundImage: "url(/img/KU1.png)",
                 height: "300px",
@@ -39,6 +40,10 @@ export default function AboutPictures() {
                       alt="Kayisha/travel"
                       ></div> */}
             <div
+            data-aos="fade-right"
+            data-aos-easing="ease-in-sine"
+            data-aos-delay="500"
+            data-aos-offset="0"
               style={{
                 backgroundImage: "url(/img/KU3.png)",
                 height: "300px",
@@ -50,7 +55,10 @@ export default function AboutPictures() {
             ></div>
           </div>
           <div
-            className=""
+            data-aos="fade-right"
+            data-aos-easing="ease-in-sine"
+            data-aos-delay="1000"
+            data-aos-offset="0"
             style={{
               backgroundImage: "url(/img/KU2.png)",
               height: "450px",
