@@ -1,61 +1,22 @@
-import React from "react";
-import { Barbell } from "../components/Icons";
+import React, { Component } from "react";
+// import { Barbell } from "../components/Icons";
 import AnimatedText from "../components/AnimatedText";
+import AboutPictures from "../components/AOSAnimation";
+import Fadein from "../components/AOSAnimation";
+
 
 const About = () => {
+    
+    
   return (
     <>
       <section
         id="aboutSection"
         className="flex items-center justify-center min-h-screen w-full"
       >
-        <div className="flex w-1/2 mx-4 min-h-screen items-center justify-center">
-          {/* <div className="h-20 w-20">
-                <Barbell className={"w-10 h-10"}/>
-                </div> */}
-          <div id="picture-stack" className="flex flex-col">
-            <div
-              style={{
-                backgroundImage: "url(/img/KU1.png)",
-                height: "300px",
-                width: "200px",
-                backgroundSize: "cover",
-                backgroundRepeat: "no-repeat",
-              }}
-              alt="Kayisha/designer"
-            ></div>
-            {/* <div 
-                    style={{
-                        backgroundImage: "url(/img/Kayisha-profile-pic.png)",
-                        height: "300px",
-                        width: "200px",
-                        backgroundSize: "cover",
-                        backgroundRepeat: "no-repeat",
-                      }}
-                      alt="Kayisha/travel"
-                      ></div> */}
-            <div
-              style={{
-                backgroundImage: "url(/img/KU3.png)",
-                height: "300px",
-                width: "200px",
-                backgroundSize: "cover",
-                backgroundRepeat: "no-repeat",
-              }}
-              alt="Kayisha/nature"
-            ></div>
-          </div>
-          <div
-            className=""
-            style={{
-              backgroundImage: "url(/img/KU2.png)",
-              height: "450px",
-              width: "380px",
-              backgroundSize: "cover",
-              backgroundRepeat: "no-repeat",
-            }}
-            alt="Kayisha/main"
-          ></div>
+        <div className="w-1/2 min-h-screen">
+         {/* Add Picture fade in component here */}
+         <AboutPictures />
         </div>
         <div className="w-1/2 flex flex-col -ml-10 justify-center items-center border border-black">
             {/* add margins so that Animated text overlaos */}

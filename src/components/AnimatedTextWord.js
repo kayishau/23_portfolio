@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const AnimatedTextWord = ({ text }) => {
   const words = text.split(" ");
 
-// Variants for Container of words.
+// Variants for Container of words
   const container = {
     hidden: { opacity: 0 },
     visible: (i = 1) => ({
@@ -12,7 +12,7 @@ const AnimatedTextWord = ({ text }) => {
     }),
   };
 
-// Variants for each word.
+// Variants for each word
 
   const child = {
     visible: {
