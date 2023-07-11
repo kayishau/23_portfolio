@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 // import { Barbell } from "../components/Icons";
 import AnimatedText from "../components/AnimatedText";
-import AboutPictures from "../components/AOSAnimation";
-import Fadein from "../components/AOSAnimation";
+import AboutPictures from "../components/AboutAOS";
+import Fadein from "../components/AboutAOS";
 
 
 const About = () => {
