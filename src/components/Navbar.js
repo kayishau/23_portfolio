@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { LinkedInIcon, GithubIcon, TwitterIcon } from './Icons'
+import { LinkedInIcon, GithubIcon, TwitterIcon, Barbell } from './Icons'
 import Header from './Header'
 
 
