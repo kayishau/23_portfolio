@@ -1,4 +1,3 @@
-import React,{ useEffect } from "react";
 import { LinkArrow } from "../components/Icons";
 import AnimatedText from "../components/AnimatedText";
 import TransitionEffect from "../components/TransitionEffect";
