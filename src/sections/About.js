@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import AnimatedText from "../components/AnimatedText";
 import AboutPictures from "../components/AboutAOS";
 import Fadein from "../components/AboutAOS";
+import Skills from "../components/Skills";
 
 
 const About = () => {
@@ -12,7 +13,7 @@ const About = () => {
     <>
       <section
         id="aboutSection"
-        className="flex items-center justify-center min-h-screen w-full"
+        className="flex flex-wrap items-center justify-center min-h-screen w-full"
       >
         <div className="w-1/2 min-h-screen">
          {/* Add Picture fade in component here */}
@@ -58,6 +59,9 @@ const About = () => {
             Ut enim ad minim veniam, quis nostrud exercitation.
           </p>
         </div>
+
+        <Skills />
+        
       </section>
     </>
   );

@@ -53,12 +53,10 @@ export default function Projects() {
       className="w-full mb-16 flex flex-col items-center justify-center"
     >
       <div className="pt-10">
+    
         <AnimatedText text="Creatively Coding" />
-       <div>
-       <Skills />
-        </div>
 
-        <div className="py-20 mx-16 gap-10 flex items-center justify-center">
+        <div className="py-8 mx-16 gap-10 flex items-center justify-center">
           <div
             className="border-black w-1/3"
             data-aos="fade-up"
