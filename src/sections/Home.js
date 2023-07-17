@@ -33,13 +33,11 @@ const Home = ({ childern, className = "" }) => {
             </div>
 
             <div className="w-1/2 flex flex-col items-center self-center -ml-20">
-              <AnimatedText text="Kayisha Ulysse" className="mb-6" />
+              <AnimatedText text="Kayisha Ulysse" className="mb-6 font-cg font-bold tracking-wider" />
               <AnimatedTextWord text="SOFTWARE ENGINEER | DESIGNER | ENVIROMENTALIST | DIVERSITY ADVOCATE" 
-              style={{
-                textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' 
-              }}/>
+              />
 
-              <p className="my-6 text-base font-medium">
+              <p className="my-6 text-base font-cg font-medium">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
