@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 
-const { fontFamily } = require('tailwindcss/defaultTheme')
 
 module.exports = {
   important: true,
@@ -10,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        mont: ['var(--font-mont)', ...fontFamily.sans],
+        cg: ['Cormorant Garamond', 'serif'],
       },
       colors: {
         dark: "#1b1b1b",

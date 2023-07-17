@@ -22,7 +22,7 @@ const About = () => {
         <div className="w-1/2 flex flex-col -ml-10 justify-center items-center">
             {/* add margins so that Animated text overlaos */}
           <div>
-            <AnimatedText text="Placeholder slogan!" className="my-6" />
+            <AnimatedText text="Placeholder slogan!" className="my-6 font-cg" />
           </div>
           <h2 className="text-lg font-bold uppercase text-dark/75">
             About Me
