@@ -50,7 +50,7 @@ const Home = ({ childern, className = "" }) => {
                 <a
                   href="/UlysseKayisha_Resume_23.pdf"
                   target={"_blank"}
-                  className="flex items-center bg-dark text-light p-2.5 px-6 text-lg font-semibold hover:bg-light hover:text-dark border border-solid border-transparent hover:border-dark"
+                  className="flex items-center bg-dark text-light font-cg p-2.5 px-6 text-lg font-semibold hover:bg-light hover:text-dark border border-solid border-transparent hover:border-dark"
                   download={true}
                 >
                   Resume <LinkArrow className={"w-6 ml-1"} />
@@ -58,9 +58,9 @@ const Home = ({ childern, className = "" }) => {
                 <a
                   href="mailto:ulyssekayisha@gmail.com"
                   target={"_blank"}
-                  className="ml-4 text-lg font-medium capitalize text-dark underline"
+                  className="ml-4 text-lg text-dark font-cg font-extrabold underline"
                 >
-                  <span>Contact Me 😊</span>
+                  <span>Contact me 😊</span>
                 </a>
               </div>
             </div>
