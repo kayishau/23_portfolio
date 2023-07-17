@@ -3,9 +3,9 @@ import { ReactIcon, TailwindIcon, Bootstrap, Figma, Canva, Adobe, MongoDB, Djang
 import { motion, Variants } from "framer-motion";
 
 export default function Skills() {
-    useEffect(() => {
-        AOS.init();
-      }, []);
+    // useEffect(() => {
+    //     AOS.init();
+    //   }, []);
     return(
         <>
         <h1>Skills</h1>
