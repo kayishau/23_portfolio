@@ -60,9 +60,8 @@ export default function Projects() {
           <div
             className="border-black w-1/3"
             data-aos="fade-up"
-            data-aos-anchor-placement="center-center"
+            data-aos-anchor-placement="top-bottom"
             data-aos-delay="300"
-            data-aos-offset="0"
           >
             <Project
               title="Carbon FootPrint Tracker"
@@ -76,9 +75,8 @@ export default function Projects() {
           <div
             className="border-black w-1/3"
             data-aos="fade-up"
-            data-aos-anchor-placement="center-center"
+            data-aos-anchor-placement="top-bottom"
             data-aos-delay="150"
-            data-aos-offset="0"
           >
             <Project
               title="Web3 Wiki"
@@ -92,9 +90,8 @@ export default function Projects() {
           <div
             className="border-black w-1/3"
             data-aos="fade-up"
-            data-aos-anchor-placement="center-center"
+            data-aos-anchor-placement="top-bottom"
             data-aos-delay="250"
-            data-aos-offset="0"
           >
             <Project
               title="Web3 Wiki"
