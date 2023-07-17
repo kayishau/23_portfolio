@@ -1,10 +1,9 @@
-// import AnimatedText from "@/components/AnimatedText"
-// import { GithubIcon } from "@/components/Icons"
-// import TransitionEffect from "@/components/TransitionEffect"
+import React,{ useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { GithubIcon } from "../components/Icons";
-
-
 import AnimatedText from "../components/AnimatedText";
+
 
 const Project = ({ title, type, img, summary, link, github }) => {
   return (
@@ -44,18 +43,25 @@ const Project = ({ title, type, img, summary, link, github }) => {
   );
 };
 
-const Projects = () => {
+export default function Projects() {
+    useEffect(() => {
+        AOS.init();
+      }, [])
   return (
     <section
       id="projectsSection"
-      className="w-full mb-16 flex flex-col items-center justify-center border border-black"
+      className="w-full mb-16 flex flex-col items-center justify-center"
     >
        
        <div className="pt-10">
         <AnimatedText text="Creatively Coding" />
 
         <div className="py-20 mx-16 gap-10 flex items-center justify-center">
-            <div className="border-black w-1/3">
+            <div className="border-black w-1/3"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-center"
+            data-aos-delay="300"
+            data-aos-offset="0">
                 <Project
                 title="Carbon FootPrint Tracker"
                 img={"/img/projects/image-coming-soon.jpeg"}
@@ -65,7 +71,11 @@ const Projects = () => {
                 github="https://github.com/tiffanysimione/ProjectThree-CarbonFootprint-FrontEnd" />
 
             </div>
-            <div className="border-black w-1/3">
+            <div className="border-black w-1/3"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-center"
+            data-aos-delay="150"
+            data-aos-offset="0">
                 <Project
                 title="Web3 Wiki"
                 img={"/img/projects/image-coming-soon.jpeg"}
@@ -75,7 +85,11 @@ const Projects = () => {
                 github="https://github.com/kayishau/web3-wiki" />
 
             </div>
-            <div className="border-black w-1/3">
+            <div className="border-black w-1/3"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-center"
+            data-aos-delay="250"
+            data-aos-offset="0">
                 <Project
                 title="Web3 Wiki"
                 img={"/img/projects/image-coming-soon.jpeg"}
@@ -98,4 +112,3 @@ const Projects = () => {
   );
 };
 
-export default Projects;
