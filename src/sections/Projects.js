@@ -1,9 +1,8 @@
-import React,{ useEffect } from "react";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { GithubIcon } from "../components/Icons";
 import AnimatedText from "../components/AnimatedText";
-
 
 const Project = ({ title, type, img, summary, link, github }) => {
   return (
@@ -44,71 +43,70 @@ const Project = ({ title, type, img, summary, link, github }) => {
 };
 
 export default function Projects() {
-    useEffect(() => {
-        AOS.init();
-      }, [])
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section
       id="projectsSection"
       className="w-full mb-16 flex flex-col items-center justify-center"
     >
-       
-       <div className="pt-10">
+      <div className="pt-10">
         <AnimatedText text="Creatively Coding" />
 
         <div className="py-20 mx-16 gap-10 flex items-center justify-center">
-            <div className="border-black w-1/3"
+          <div
+            className="border-black w-1/3"
             data-aos="fade-up"
             data-aos-anchor-placement="center-center"
             data-aos-delay="300"
-            data-aos-offset="0">
-                <Project
-                title="Carbon FootPrint Tracker"
-                img={"/img/projects/image-coming-soon.jpeg"}
-                summary="A mini full CRUD wiki application that provides overviews on some of Web3 biggest topics. Created with NextJS, Tailwind CSS, Framer-Motion, MongoDB Atlas and NodeJS"
-                link="https://github.com/tiffanysimione/ProjectThree-CarbonFootprint-FrontEnd"
-                type="Featured Project"
-                github="https://github.com/tiffanysimione/ProjectThree-CarbonFootprint-FrontEnd" />
-
-            </div>
-            <div className="border-black w-1/3"
+            data-aos-offset="0"
+          >
+            <Project
+              title="Carbon FootPrint Tracker"
+              img={"/img/projects/image-coming-soon.jpeg"}
+              summary="A mini full CRUD wiki application that provides overviews on some of Web3 biggest topics. Created with NextJS, Tailwind CSS, Framer-Motion, MongoDB Atlas and NodeJS"
+              link="https://github.com/tiffanysimione/ProjectThree-CarbonFootprint-FrontEnd"
+              type="Featured Project"
+              github="https://github.com/tiffanysimione/ProjectThree-CarbonFootprint-FrontEnd"
+            />
+          </div>
+          <div
+            className="border-black w-1/3"
             data-aos="fade-up"
             data-aos-anchor-placement="center-center"
             data-aos-delay="150"
-            data-aos-offset="0">
-                <Project
-                title="Web3 Wiki"
-                img={"/img/projects/image-coming-soon.jpeg"}
-                summary="A mini full CRUD wiki application that provides overviews on some of Web3 biggest topics. Created with NextJS, Tailwind CSS, Framer-Motion, MongoDB Atlas and NodeJS"
-                link="https://github.com/kayishau/web3-wiki"
-                type="Featured Project"
-                github="https://github.com/kayishau/web3-wiki" />
-
-            </div>
-            <div className="border-black w-1/3"
+            data-aos-offset="0"
+          >
+            <Project
+              title="Web3 Wiki"
+              img={"/img/projects/image-coming-soon.jpeg"}
+              summary="A mini full CRUD wiki application that provides overviews on some of Web3 biggest topics. Created with NextJS, Tailwind CSS, Framer-Motion, MongoDB Atlas and NodeJS"
+              link="https://github.com/kayishau/web3-wiki"
+              type="Featured Project"
+              github="https://github.com/kayishau/web3-wiki"
+            />
+          </div>
+          <div
+            className="border-black w-1/3"
             data-aos="fade-up"
             data-aos-anchor-placement="center-center"
             data-aos-delay="250"
-            data-aos-offset="0">
-                <Project
-                title="Web3 Wiki"
-                img={"/img/projects/image-coming-soon.jpeg"}
-                summary="A mini full CRUD wiki application that provides overviews on some of Web3 biggest topics. Created with NextJS, Tailwind CSS, Framer-Motion, MongoDB Atlas and NodeJS"
-                link="https://github.com/kayishau/web3-wiki"
-                type="Featured Project"
-                github="https://github.com/kayishau/web3-wiki" />
-
-            </div>
-            
-
+            data-aos-offset="0"
+          >
+            <Project
+              title="Web3 Wiki"
+              img={"/img/projects/image-coming-soon.jpeg"}
+              summary="A mini full CRUD wiki application that provides overviews on some of Web3 biggest topics. Created with NextJS, Tailwind CSS, Framer-Motion, MongoDB Atlas and NodeJS"
+              link="https://github.com/kayishau/web3-wiki"
+              type="Featured Project"
+              github="https://github.com/kayishau/web3-wiki"
+            />
+          </div>
         </div>
 
-        <div>
-
-        </div>
-        </div> 
-     
+        
+      </div>
     </section>
   );
-};
-
+}
