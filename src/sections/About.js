@@ -13,7 +13,7 @@ const About = () => {
     <>
       <section
         id="aboutSection"
-        className="flex flex-wrap items-center justify-center min-h-screen w-full"
+        className="flex flex-wrap items-center justify-center min-h-screen w-full border-4 border-black"
       >
         <div className="w-1/2 min-h-screen">
          {/* Add Picture fade in component here */}

@@ -50,7 +50,7 @@ export default function Projects() {
   return (
     <section
       id="projectsSection"
-      className="w-full mb-16 flex flex-col items-center justify-center"
+      className="w-full mb-16 flex flex-col items-center justify-center border-4 border-black"
     >
       <div className="pt-10">
     

@@ -11,7 +11,7 @@ const Home = ({ childern, className = "" }) => {
       <TransitionEffect />
       <section
         id="homeSection"
-        className="flex items-center justify-center w-full min-h-screen"
+        className="flex items-center justify-center w-full min-h-screen border-4 border-black "
       >
         <div
          className={`${className}`}>
