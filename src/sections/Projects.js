@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { GithubIcon } from "../components/Icons";
 import AnimatedText from "../components/AnimatedText";
-import Skills from "../components/Skills";
+
 
 const Project = ({ title, type, img, summary, link, github }) => {
   return (
@@ -54,7 +54,7 @@ export default function Projects() {
     >
       <div className="pt-10">
     
-        <AnimatedText text="Creatively Coding" />
+        <AnimatedText className="font-cg" text="Creatively Coding" />
 
         <div className="py-8 mx-16 gap-10 flex items-center justify-center">
           <div

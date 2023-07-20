@@ -63,7 +63,7 @@
 import React, { useState } from "react";
 
 const Header = () => {
-  const navLinks = ["Home", "About", "Projects"];
+  const navLinks = ["Home", "About", "Skills", "Projects"];
   const [isImageVisible, setImageVisible] = useState(true);
 
   const renderNavLinks = (content) => {

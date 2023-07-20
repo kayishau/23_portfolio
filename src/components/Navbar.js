@@ -9,8 +9,7 @@ const NavBar = () => {
 
     return (
         <>
-         
-        <header className='sticky top-0 w-full px-32 -mb-12 font-bold font-cg flex justify-between items-center'> 
+        <header className='sticky top-0 w-full px-32 -mb-12 font-bold font-cg flex justify-between items-center -mt-9'> 
             <nav className='text-primary'>
                 <Header />
             </nav>

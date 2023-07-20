@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-// import { Barbell } from "../components/Icons";
 import AnimatedText from "../components/AnimatedText";
 import AboutPictures from "../components/AboutAOS";
 import Fadein from "../components/AboutAOS";
-import Skills from "../components/Skills";
+
 
 
 const About = () => {
@@ -22,12 +21,12 @@ const About = () => {
         <div className="w-1/2 flex flex-col -ml-10 justify-center items-center">
             {/* add margins so that Animated text overlaos */}
           <div>
-            <AnimatedText text="Placeholder slogan!" className="my-6 font-cg" />
+            <AnimatedText text="The Tea on Me :)" className="my-6 font-cg" />
           </div>
-          <h2 className="text-lg font-bold uppercase text-dark/75">
+          <h2 className="text-lg font-cg italic font-bold uppercase text-dark/75">
             About Me
           </h2>
-          <p className="my-4 pr-8 font-medium">
+          <p className="my-4 pr-8 font-medium font-cg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -35,7 +34,7 @@ const About = () => {
             nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
             consequat.
           </p>
-          <p className="font-medium pr-8">
+          <p className="mb-4 font-medium pr-8 font-cg">
           
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -47,7 +46,7 @@ const About = () => {
             Ut enim ad minim veniam, quis nostrud exercitation.
           </p>
 
-          <p className="font-medium pr-8">
+          <p className="font-medium pr-8 font-cg">
             
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -59,9 +58,6 @@ const About = () => {
             Ut enim ad minim veniam, quis nostrud exercitation.
           </p>
         </div>
-
-        <Skills />
-        
       </section>
     </>
   );
