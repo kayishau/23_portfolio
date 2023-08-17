@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
-import "aos/dist/aos.css";
+// import "aos/dist/aos.css";
 import { GithubIcon } from "../components/Icons";
 import AnimatedText from "../components/AnimatedText";
+import useEmblaCarousel from 'embla-carousel-react'
 
 
 const Project = ({ title, type, img, summary, link, github }) => {
@@ -45,7 +46,7 @@ const Project = ({ title, type, img, summary, link, github }) => {
 
 export default function Projects() {
   useEffect(() => {
-    AOS.init();
+    // AOS.init();
   }, []);
   return (
     <section
@@ -59,9 +60,9 @@ export default function Projects() {
         <div className="py-8 mx-16 gap-10 flex items-center justify-center">
           <div
             className="border-black w-1/3"
-            data-aos="fade-up"
-            data-aos-anchor-placement="top-bottom"
-            data-aos-delay="300"
+            // data-aos="fade-up"
+            // data-aos-anchor-placement="top-bottom"
+            // data-aos-delay="300"
           >
             <Project
               title="Carbon FootPrint Tracker"
@@ -74,9 +75,9 @@ export default function Projects() {
           </div>
           <div
             className="border-black w-1/3"
-            data-aos="fade-up"
-            data-aos-anchor-placement="top-bottom"
-            data-aos-delay="150"
+            // data-aos="fade-up"
+            // data-aos-anchor-placement="top-bottom"
+            // data-aos-delay="150"
           >
             <Project
               title="Web3 Wiki"
@@ -89,9 +90,9 @@ export default function Projects() {
           </div>
           <div
             className="border-black w-1/3"
-            data-aos="fade-up"
-            data-aos-anchor-placement="top-bottom"
-            data-aos-delay="250"
+            // data-aos="fade-up"
+            // data-aos-anchor-placement="top-bottom"
+            // data-aos-delay="250"
           >
             <Project
               title="Web3 Wiki"
