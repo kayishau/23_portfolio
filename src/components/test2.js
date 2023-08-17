@@ -2,7 +2,7 @@ import React from "react";
 import comingSoonImage from "../../src/imgs/testimage.JPG";
 import { GithubIcon } from "./Icons";
 
-export const Test2 = ({ title, type, img, summary, link, github }) => {
+const Project = ({ title, type, img, summary, link, github }) => {
   return (
     <article className="w-full flex flex-col items-center justify-center border border-solid border-light bg-light p-6 relative shadow-2xl">
       <a
@@ -40,6 +40,38 @@ export const Test2 = ({ title, type, img, summary, link, github }) => {
   );
 };
 
-export default Test2;
+// export default Test2;
 
 // TODO: find out how to export multiple projects from one page to pass to ImageByIndex 
+
+export const project1 = () => {
+    return(
+        <>
+       <Project
+        title="Carbon FootPrint Tracker"
+        img={"/img/projects/image-coming-soon.jpeg"}
+        summary="A mini full CRUD wiki application that provides overviews on some of Web3 biggest topics. Created with NextJS, Tailwind CSS, Framer-Motion, MongoDB Atlas and NodeJS"
+        link="https://github.com/tiffanysimione/ProjectThree-CarbonFootprint-FrontEnd"
+        type="Featured Project"
+        github="https://github.com/tiffanysimione/ProjectThree-CarbonFootprint-FrontEnd"
+        />
+        </>
+    )
+}
+
+export const project2 = () => {
+    return(
+        <>
+       <Project
+        title="Carbon FootPrint Tracker"
+        img={"/img/projects/image-coming-soon.jpeg"}
+        summary="A mini full CRUD wiki application that provides overviews on some of Web3 biggest topics. Created with NextJS, Tailwind CSS, Framer-Motion, MongoDB Atlas and NodeJS"
+        link="https://github.com/tiffanysimione/ProjectThree-CarbonFootprint-FrontEnd"
+        type="Featured Project"
+        github="https://github.com/tiffanysimione/ProjectThree-CarbonFootprint-FrontEnd"
+        />
+        </>
+    )
+}
+
+// export {project1, project2}

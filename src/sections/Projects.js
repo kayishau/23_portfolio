@@ -59,10 +59,10 @@ export default function Projects() {
       id="projectsSection"
       className="w-full mb-16 flex flex-col items-center justify-center border-4 border-black"
     >
-      <div className="pt-10">
+      {/* <div className="pt-10"> */}
     
         <AnimatedText className="font-cg" text="Creatively Coding" />
-
+{/* 
         <div className="py-8 mx-16 gap-10 flex items-center justify-center">
           <div
             className="border-black w-1/3"
@@ -110,7 +110,7 @@ export default function Projects() {
             />
           </div>
         </div>
-      </div>
+      </div> */}
       <section className="sandbox__carousel">
       <EmblaCarousel slides={SLIDES} options={OPTIONS} />
     </section>
