@@ -20,11 +20,8 @@ export default function Projects() {
     <>
     <section
       id="projectsSection"
-      className="w-full h-screen mb-16 flex flex-col items-center justify-center border-4 border-black"
-    >
-    
-        <AnimatedText className="font-cg" text="Creatively Coding" />
-
+      className="w-full h-screen  flex flex-col items-center justify-center border-4 border-black">
+        <h1 className="font-cg text-4xl mt-14">Creatively Coding </h1>
       <section className="sandbox__carousel">
       <EmblaCarousel slides={SLIDES} options={OPTIONS} />
     </section>
