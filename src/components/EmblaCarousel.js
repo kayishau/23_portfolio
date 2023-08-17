@@ -3,6 +3,7 @@ import useEmblaCarousel from 'embla-carousel-react'
 import { flushSync } from 'react-dom'
 import imageByIndex from './imageByIndex'
 import '../embla.css'
+import Projects from '../sections/Projects'
 
 
 const TWEEN_FACTOR = 4.2
@@ -69,6 +70,7 @@ const EmblaCarousel = (props) => {
                 className="embla__slide__img"
                 src={imageByIndex(index)}
               /> */}
+           <imageByIndex />
             
             </div>
           ))}

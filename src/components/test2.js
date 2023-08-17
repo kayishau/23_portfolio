@@ -44,7 +44,7 @@ const Project = ({ title, type, img, summary, link, github }) => {
 
 // TODO: find out how to export multiple projects from one page to pass to ImageByIndex 
 
-export const project1 = () => {
+export function Project1() {
     return(
         <>
        <Project
@@ -59,7 +59,7 @@ export const project1 = () => {
     )
 }
 
-export const project2 = () => {
+export function Project2() {
     return(
         <>
        <Project
@@ -74,4 +74,31 @@ export const project2 = () => {
     )
 }
 
-// export {project1, project2}
+export function Project3() {
+    return(
+        <>
+       <Project
+        title="Carbon FootPrint Tracker"
+        img={"/img/projects/image-coming-soon.jpeg"}
+        summary="A mini full CRUD wiki application that provides overviews on some of Web3 biggest topics. Created with NextJS, Tailwind CSS, Framer-Motion, MongoDB Atlas and NodeJS"
+        link="https://github.com/tiffanysimione/ProjectThree-CarbonFootprint-FrontEnd"
+        type="Featured Project"
+        github="https://github.com/tiffanysimione/ProjectThree-CarbonFootprint-FrontEnd"
+        />
+        </>
+    )
+}
+export function Project4() {
+    return(
+        <>
+       <Project
+        title="Carbon FootPrint Tracker"
+        img={"/img/projects/image-coming-soon.jpeg"}
+        summary="A mini full CRUD wiki application that provides overviews on some of Web3 biggest topics. Created with NextJS, Tailwind CSS, Framer-Motion, MongoDB Atlas and NodeJS"
+        link="https://github.com/tiffanysimione/ProjectThree-CarbonFootprint-FrontEnd"
+        type="Featured Project"
+        github="https://github.com/tiffanysimione/ProjectThree-CarbonFootprint-FrontEnd"
+        />
+        </>
+    )
+}

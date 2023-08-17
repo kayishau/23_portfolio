@@ -2,8 +2,8 @@
 // import image2 from '../imgs/testimage.JPG'
 // import image3 from '../imgs/testimage.JPG'
 // import image4 from '../imgs/testimage.JPG'
-import project1 from "./test2"
-import project2 from "./test2"
+import { Project1, Project2, Project3, Project4 }from "./test2"
+// import project2 from "./test2"
 // import projectsComponent1 from '../projects/firstProject'
 // import projectsComponent2 from '../projects/firstProject'
 // import projectsComponent3 from '../projects/firstProject'
@@ -13,7 +13,7 @@ import project2 from "./test2"
 
 // export const images = [projectsComponent1, projectsComponent2, projectsComponent3, projectsComponent4]
 
-export const images = [project1, project2]
+export const images = [Project1, Project2, Project3, Project4]
 
 
 const imageByIndex = (index) => images[index % images.length]
