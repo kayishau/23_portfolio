@@ -1,9 +1,8 @@
 import React, { useCallback, useEffect, useState } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 import { flushSync } from 'react-dom'
-import imageByIndex from './imageByIndex'
 import '../embla.css'
-import Projects from '../sections/Projects'
+import { GithubIcon } from './Icons'
 
 
 const TWEEN_FACTOR = 4.2
@@ -66,11 +65,20 @@ const EmblaCarousel = (props) => {
               <div className="embla__slide__number">
                 <span>{index + 1}</span>
               </div>
+              <div className='flex flex-col items-center border border-green-700' >
               <h1>{index.title}</h1>
               <img
                 className="embla__slide__img"
                 src={index.img}
               />
+              <p>{index.summary}</p>
+              <h2>{index.type}</h2>
+              <a href={index.link}>live site?</a>
+              <a href={index.github}>
+                <GithubIcon />
+              </a>
+              </div>
+            
       
             
             </div>

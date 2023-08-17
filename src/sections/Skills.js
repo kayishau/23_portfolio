@@ -29,7 +29,7 @@ export default function Skills() {
         <h2 className="font-bold text-6xl w-full text-center font-cg">Skills</h2>
         {/* TODO: make cards or figure out formatting for skills section */}
 
-        <div className="w-full h-screen relative items-center flex justify-centers flex-col">
+        <div className="w-full relative items-center flex justify-centers flex-col">
           <div className="mt-20 mb-10 flex flex-col justify-center items-center">
             <h3 className="mb-5 text-lg font-bold uppercase text-dark/75">
               Frontend
@@ -121,7 +121,7 @@ export default function Skills() {
             </ul>
           </div>
 
-          <div className="flex flex-col justify-center items-center">
+          {/* <div className="flex flex-col justify-center items-center">
             <h3 className="mb-4 text-lg font-bold uppercase text-dark/75">
               Languages
             </h3>
@@ -139,7 +139,7 @@ export default function Skills() {
                 <Rust />
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </section>
     </>
