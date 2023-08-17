@@ -64,10 +64,15 @@ const EmblaCarousel = (props) => {
               <div className="embla__slide__number">
                 <span>{index + 1}</span>
               </div>
-              <img
+              {/* <img
                 className="embla__slide__img"
                 src={imageByIndex(index)}
-              />
+              /> */}
+              TODO: figure out how to import the jsx project component to display in carousel
+              <div
+              value={imageByIndex(index)}>
+
+              </div>
             </div>
           ))}
         </div>
