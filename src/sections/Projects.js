@@ -1,10 +1,16 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 // import "aos/dist/aos.css";
+import ReactDOM from 'react-dom/client'
+import EmblaCarousel from '../components/EmblaCarousel'
 import { GithubIcon } from "../components/Icons";
 import AnimatedText from "../components/AnimatedText";
-import useEmblaCarousel from 'embla-carousel-react'
 
+
+
+const OPTIONS = { loop: true }
+const SLIDE_COUNT = 5
+const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
 
 const Project = ({ title, type, img, summary, link, github }) => {
   return (
@@ -49,6 +55,7 @@ export default function Projects() {
     // AOS.init();
   }, []);
   return (
+    <>
     <section
       id="projectsSection"
       className="w-full mb-16 flex flex-col items-center justify-center border-4 border-black"
@@ -104,9 +111,18 @@ export default function Projects() {
             />
           </div>
         </div>
-
-        
       </div>
+      <section className="sandbox__carousel">
+      <EmblaCarousel slides={SLIDES} options={OPTIONS} />
     </section>
+    </section>
+    </>
+    
+  )
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <Projects />
+  </React.StrictMode>
+    
   );
 }
