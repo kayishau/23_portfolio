@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 // import "aos/dist/aos.css";
-import ReactDOM from 'react-dom/client'
 import EmblaCarousel from '../components/EmblaCarousel'
 import { GithubIcon } from "../components/Icons";
 import AnimatedText from "../components/AnimatedText";
@@ -119,10 +118,5 @@ export default function Projects() {
     </>
     
   )
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Projects />
-  </React.StrictMode>
-    
-  );
+
 }
