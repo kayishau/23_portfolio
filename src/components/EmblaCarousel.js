@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 import { flushSync } from 'react-dom'
-import imageByIndex from './imageByIndex'
+// import projectsComponent from './projectsComponent'
 import '../embla.css'
 
 const TWEEN_FACTOR = 4.2
