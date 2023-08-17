@@ -4,12 +4,12 @@ import AOS from "aos";
 import EmblaCarousel from '../components/EmblaCarousel'
 import { GithubIcon } from "../components/Icons";
 import AnimatedText from "../components/AnimatedText";
-
+import { images } from "../components/imageByIndex";
 
 
 const OPTIONS = { loop: true }
 const SLIDE_COUNT = 5
-const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
+const SLIDES = images
 
 const Project = ({ title, type, img, summary, link, github }) => {
   return (

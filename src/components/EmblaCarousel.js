@@ -66,11 +66,12 @@ const EmblaCarousel = (props) => {
               <div className="embla__slide__number">
                 <span>{index + 1}</span>
               </div>
-              {/* <img
+              <h1>{index.title}</h1>
+              <img
                 className="embla__slide__img"
-                src={imageByIndex(index)}
-              /> */}
-           <imageByIndex />
+                src={index.img}
+              />
+      
             
             </div>
           ))}

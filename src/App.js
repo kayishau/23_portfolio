@@ -10,13 +10,13 @@ import Skills from "./sections/Skills";
 const App = () => {
   return (
     <div className="w-screen mx-auto bg-gradient-to-r from-white to-gradientOne min-w-full min-h-screen "
-    // style={{
-    //   backgroundImage: "url(public/img/mesh-gradient-bg2.png",
-    //   height: "800px",
-    //   width: "800px",
-    //   backgroundSize: "cover",
-    //   backgroundRepeat: "no-repeat",
-    // }}
+    style={{
+      backgroundImage: "url(public/img/mesh-gradient-bg2.png",
+      height: "800px",
+      width: "800px",
+      backgroundSize: "cover",
+      backgroundRepeat: "no-repeat",
+    }}
     >
       <div>
         <NavBar />
