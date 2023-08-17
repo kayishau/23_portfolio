@@ -41,3 +41,5 @@ export const Test2 = ({ title, type, img, summary, link, github }) => {
 };
 
 export default Test2;
+
+// TODO: find out how to export multiple projects from one page to pass to ImageByIndex 
