@@ -103,18 +103,18 @@ const Header = () => {
     return (
       <>
       
-        <ul key={content} className="inline-block px-4">
+        <ul key={content} className="inline-block px-5 my-8">
           <li>
          
             <button onClick={handleClickNav} id="myImage"
             
-            style={{
-                backgroundImage: "url(/img/nav-back.png)",
-                height: "80px",
-                width: "90px",
-                backgroundSize: "cover",
-                backgroundRepeat: "no-repeat",
-            }}
+            // style={{
+            //     backgroundImage: "url(/img/nav-back.png)",
+            //     height: "80px",
+            //     width: "90px",
+            //     backgroundSize: "cover",
+            //     backgroundRepeat: "no-repeat",
+            // }}
             //  {isImageVisible ? onMouseEnter={showImage} : onMouseLeave={hideImage}}
             onMouseEnter={showImage}
             onMouseLeave={hideImage}
