@@ -11,13 +11,18 @@ const Home = ({ childern, className = "" }) => {
       <TransitionEffect />
       <section
         id="homeSection"
-        className="flex items-center justify-center w-full min-h-screen border-4 border-black "
+        style={{
+          backgroundImage: "url(/img/PaperTexture.png)",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+        }}
+        className="flex flex-col items-center justify-center w-full min-h-screen border-4 border-black"
       >
         <div
-         className={`${className}`}>
+         className={`${className} w-full min-h-full`}>
           {childern}
 
-          <div className="flex items-center w-full">
+          <div className="flex items-center w-full border-2 border-red-500">
             <div className="w-1/2 flex items-center justify-center mr-3">
               <div
                 style={{
@@ -63,9 +68,15 @@ const Home = ({ childern, className = "" }) => {
                   <span>Contact me 😊</span>
                 </a>
               </div>
+              
             </div>
-          </div>
+            <div className=" font-cg self-end mb-20">
+          <h1 className="text-black text-4xl self-end">1</h1>
         </div>
+          </div>
+          
+        </div>
+     
       </section>
     </>
   );

@@ -129,7 +129,7 @@ const Header = () => {
   return (
     <header>
       <div>
-        <nav className="flex">
+        <nav className="">
           {navLinks.map((nav) => renderNavLinks(nav))}
           {/* <p className="px-4">Contact Me</p> */}
         </nav>

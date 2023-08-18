@@ -10,9 +10,6 @@ export default function AboutPictures() {
   return (
     <>
      <div className="flex w-full mx-4 min-h-screen items-center justify-center">
-       {/* <div className="h-20 w-20">
-                <Barbell className={"w-10 h-10"}/>
-                </div> */}
           <div id="picture-stack" className="flex flex-col">
             {/* <Fadein /> */}
             <div

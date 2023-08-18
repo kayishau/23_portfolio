@@ -7,18 +7,21 @@ import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
 
 
+
 const App = () => {
   return (
-    <div className="w-screen mx-auto bg-gradient-to-r from-white to-gradientOne min-w-full min-h-screen "
-    style={{
-      backgroundImage: "url(public/img/mesh-gradient-bg2.png",
-      height: "800px",
-      width: "800px",
-      backgroundSize: "cover",
-      backgroundRepeat: "no-repeat",
-    }}
+    <div className="w-screen min-h-screen bg-gradient-to-r from-white to-gradientOne"
     >
-      <div>
+      <div className="flex flex-col w-full"
+      //  style={{
+      //   backgroundImage: "url(/img/PaperTexture.png)",
+      //   backgroundSize: "cover",
+      //   backgroundRepeat: "no-repeat",
+      //   backgroundAttachment: "fixed",
+      //   backgroundPosition: "center",
+      //   backgroundRepeat: "no-repeat",
+      // }} 
+      >
         <NavBar />
         <Home />
         <About />
@@ -30,3 +33,5 @@ const App = () => {
   );
 };
 export default App;
+
+

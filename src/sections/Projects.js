@@ -20,8 +20,13 @@ export default function Projects() {
     <>
     <section
       id="projectsSection"
-      className="w-full h-screen  flex flex-col items-center justify-center border-4 border-black">
-        <h1 className="font-cg text-4xl mt-14">Creatively Coding </h1>
+      className="w-full h-screen flex flex-col items-center justify-center border-4 border-black"
+      style={{
+        backgroundImage: "url(/img/PaperTexture.png)",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+      }}>
+        <h1 className="font-cg text-4xl font-extrabold mt-14">Creatively Coding </h1>
       <section className="sandbox__carousel">
       <EmblaCarousel slides={SLIDES} options={OPTIONS} />
     </section>

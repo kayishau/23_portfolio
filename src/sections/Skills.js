@@ -25,6 +25,11 @@ export default function Skills() {
       <section
         id="skillsSection"
         className="flex flex-wrap items-center justify-center min-h-screen w-full border-4 border-black"
+        style={{
+          backgroundImage: "url(/img/PaperTexture.png)",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+        }}
       >
         <h2 className="font-bold text-6xl w-full text-center font-cg">Skills</h2>
         {/* TODO: make cards or figure out formatting for skills section */}
