@@ -24,7 +24,7 @@ export default function Skills() {
     <>
       <section
         id="skillsSection"
-        className="flex flex-wrap items-center justify-center min-h-screen w-full border-4 border-black"
+        className="flex flex-wrap flex-col items-center justify-center min-h-screen w-full border-4 border-black"
         style={{
           backgroundImage: "url(/img/PaperTexture.png)",
           backgroundSize: "cover",
@@ -39,7 +39,7 @@ export default function Skills() {
             <h3 className="mb-5 text-lg font-bold uppercase text-dark/75">
               Frontend
             </h3>
-            <div className="flex">
+            <div className="flex flex-col">
               <ul className="flex flex-row text-light">
                 <motion.li
                   className="m-5 box"
@@ -146,6 +146,9 @@ export default function Skills() {
             </ul>
           </div> */}
         </div>
+        <div className=" font-cg self-end mb-10 mr-6">
+              <h1 className="text-black text-4xl self-end">3</h1>
+            </div>
       </section>
     </>
   );

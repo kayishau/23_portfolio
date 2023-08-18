@@ -3,8 +3,6 @@ import AnimatedText from "../components/AnimatedText";
 import TransitionEffect from "../components/TransitionEffect";
 import AnimatedTextWord from "../components/AnimatedTextWord";
 
-
-
 const Home = ({ childern, className = "" }) => {
   return (
     <>
@@ -18,8 +16,7 @@ const Home = ({ childern, className = "" }) => {
         }}
         className="flex flex-col items-center justify-center w-full min-h-screen border-4 border-black"
       >
-        <div
-         className={`${className} w-full min-h-full`}>
+        <div className={`${className} w-full min-h-full`}>
           {childern}
 
           <div className="flex items-center w-full border-2 border-red-500">
@@ -38,9 +35,11 @@ const Home = ({ childern, className = "" }) => {
             </div>
 
             <div className="w-1/2 flex flex-col items-center self-center -ml-20">
-              <AnimatedText text="Kayisha Ulysse" className="mb-6 font-cg font-bold tracking-wider" />
-              <AnimatedTextWord text="SOFTWARE ENGINEER | DESIGNER | ENVIROMENTALIST | DIVERSITY ADVOCATE" 
+              <AnimatedText
+                text="Kayisha Ulysse"
+                className="mb-6 font-cg font-bold tracking-wider"
               />
+              <AnimatedTextWord text="SOFTWARE ENGINEER | DESIGNER | ENVIROMENTALIST | DIVERSITY ADVOCATE" />
 
               <p className="my-6 text-base font-cg font-medium">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -68,15 +67,12 @@ const Home = ({ childern, className = "" }) => {
                   <span>Contact me 😊</span>
                 </a>
               </div>
-              
             </div>
-            <div className=" font-cg self-end mb-20">
-          <h1 className="text-black text-4xl self-end">1</h1>
-        </div>
+            <div className=" font-cg self-end mb-20 ml-5">
+              <h1 className="text-black text-4xl self-end">1</h1>
+            </div>
           </div>
-          
         </div>
-     
       </section>
     </>
   );

@@ -26,10 +26,13 @@ export default function Projects() {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}>
-        <h1 className="font-cg text-4xl font-extrabold mt-14">Creatively Coding </h1>
+        <h1 className="font-cg text-4xl font-extrabold mt-10">Creatively Coding </h1>
       <section className="sandbox__carousel">
       <EmblaCarousel slides={SLIDES} options={OPTIONS} />
     </section>
+       <div className=" font-cg self-end mr-6">
+              <h1 className="text-black text-4xl self-end">4</h1>
+            </div>
     </section>
     </>
     

@@ -3,11 +3,7 @@ import AnimatedText from "../components/AnimatedText";
 import AboutPictures from "../components/AboutAOS";
 import Fadein from "../components/AboutAOS";
 
-
-
 const About = () => {
-    
-    
   return (
     <>
       <section
@@ -20,11 +16,11 @@ const About = () => {
         }}
       >
         <div className="w-1/2 min-h-screen">
-         {/* Add Picture fade in component here */}
-         <AboutPictures />
+          {/* Add Picture fade in component here */}
+          <AboutPictures />
         </div>
         <div className="w-1/2 flex flex-col -ml-10 justify-center items-center">
-            {/* add margins so that Animated text overlaos */}
+          {/* add margins so that Animated text overlaos */}
           <div>
             <AnimatedText text="The Tea on Me :)" className="my-6 font-cg" />
           </div>
@@ -40,7 +36,6 @@ const About = () => {
             consequat.
           </p>
           <p className="mb-4 font-medium pr-8 font-cg">
-          
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -52,7 +47,6 @@ const About = () => {
           </p>
 
           <p className="font-medium pr-8 font-cg">
-            
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -62,6 +56,9 @@ const About = () => {
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation.
           </p>
+        </div>
+        <div className=" font-cg self-end mb-10 -ml-5">
+          <h1 className="text-black text-4xl self-end">2</h1>
         </div>
       </section>
     </>
