@@ -22,7 +22,7 @@ const Home = ({ childern, className = "" }) => {
           {childern}
 
           <div className="flex items-center w-full min-h-full">
-            <div className="w-1/2 flex items-center justify-center mr-3">
+            <div className="w-1/2 flex items-center justify-center mr-8">
               <div
                 style={{
                   backgroundImage: "url(/img/flower.png)",
