@@ -8,20 +8,21 @@ const About = () => {
     <>
       <section
         id="aboutSection"
-        className="flex flex-wrap items-center justify-center min-h-screen w-full border border-slate-500"
+        className="flex flex-wrap items-center justify-center min-h-screen w-full border-t border-slate-500" 
         style={{
           backgroundImage: "url(/img/finalTexture.png)",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
+          backgroundPosition: "bottom",
         }}
       >
         <div className="w-1/2 min-h-screen ">
           {/* Add Picture fade in component here */}
           <AboutPictures />
         </div>
-        <div className="w-1/2 min-h-screen flex flex-col -ml-10 justify-center items-center mb-20">
+        <div className="w-1/2 min-h-screen flex flex-col -ml-10 justify-center items-center ">
           {/* add margins so that Animated text overlaos */}
-          <div className="mb-6">
+          <div className="mb-">
             <h1 className="font-cg text-4xl font-extrabold mt-0">The Tea On Me :)</h1>
           </div>
           <h2 className="text-lg font-cg italic font-bold uppercase text-dark/75">

@@ -18,6 +18,7 @@ module.exports = {
         primaryDark: "#684C42", // 80,230,217
         gradientOne: "#ffe3d5",
         gradientTwo: "#FC6E0B",
+        projectBorder: "#FFECE2"
     }
     },
     screens: {

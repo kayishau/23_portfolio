@@ -24,7 +24,7 @@ export default function Skills() {
     <>
       <section
         id="skillsSection"
-        className="flex flex-wrap flex-col items-center justify-center min-h-screen w-full mt-8 "
+        className="flex flex-wrap flex-col items-center justify-center min-h-screen w-full border-t border-slate-500"
         style={{
           backgroundImage: "url(/img/finalTexture.png)",
           backgroundSize: "cover",

@@ -20,13 +20,14 @@ export default function Projects() {
     <>
     <section
       id="projectsSection"
-      className="w-full min-h-screen flex flex-col items-center justify-center"
+      className="w-full min-h-screen flex flex-col items-center justify-center border-t border-slate-500"
       style={{
         backgroundImage: "url(/img/finalTexture.png)",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
+        backgroundPosition: "bottom",
       }}>
-        <h1 className="font-cg text-4xl font-extrabold mt-0">Creatively Coding </h1>
+        <h1 className="font-cg text-4xl font-extrabold mt-0">Creatively Coding :)</h1>
       <section className="sandbox__carousel">
       <EmblaCarousel slides={SLIDES} options={OPTIONS} />
     </section>

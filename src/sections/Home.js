@@ -13,26 +13,26 @@ const Home = ({ childern, className = "" }) => {
           backgroundImage: "url(/img/finalTexture.png)",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
+          backgroundPosition: "bottom",
           // marginBottom: "5px"
         }}
-        className="flex flex-col items-center justify-center w-full min-h-screen border border-slate-500"
+        className="flex flex-col items-center justify-center w-full min-h-screen border-b-1 border-slate-500"
       >
         <div className={`${className} w-full min-h-full`}>
           {childern}
 
-          <div className="flex items-center w-full">
+          <div className="flex items-center w-full min-h-full">
             <div className="w-1/2 flex items-center justify-center mr-3">
               <div
                 style={{
                   backgroundImage: "url(/img/flower.png)",
-                  height: "800px",
+                  height: "700px",
                   width: "800px",
                   backgroundSize: "cover",
                   backgroundRepeat: "no-repeat",
                 }}
                 alt="watercolor flowers image"
-                className="mt-4 mb-4"
+                className=""
               ></div>
             </div>
 
