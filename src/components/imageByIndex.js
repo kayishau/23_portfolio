@@ -24,10 +24,10 @@ export const projectsArray = [
     img: "/img/projects/image-coming-soon.jpeg",
     summary:
       "A mini full CRUD wiki application that provides overviews on some of Web3 biggest topics. Created with NextJS, Tailwind CSS, Framer-Motion, MongoDB Atlas and NodeJS",
-    link: "https://github.com/tiffanysimione/ProjectThree-CarbonFootprint-FrontEnd",
+    link: "https://github.com/sramalho94/TOP_Frontend",
     type: "Featured Project",
     github:
-      "https://github.com/tiffanysimione/ProjectThree-CarbonFootprint-FrontEnd",
+      "https://github.com/sramalho94/TOP_Frontend",
   },
   {
     title: "WTW Blog",
