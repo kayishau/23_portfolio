@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Header = () => {
-  const navLinks = ["Home", "About", "Skills", "Projects"];
+  const navLinks = ["Home", "About", "Skills", "Projects", "Contact"];
   const [isImageVisible, setImageVisible] = useState(true);
 
   const renderNavLinks = (content) => {
@@ -69,8 +69,6 @@ const Header = () => {
       <div>
         <nav className="flex items-center">
           {navLinks.map((nav) => renderNavLinks(nav))}
-          {/* TODO: modal ? */}
-          <p className="px-4">Contact Me</p>
         </nav>
       </div>
     </header>
