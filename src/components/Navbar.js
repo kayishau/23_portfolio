@@ -9,11 +9,11 @@ const NavBar = () => {
 
     return (
         <>
-        <header className='sticky top-0 w-full px-32 flex justify-between items-center'> 
+        <header className='sticky top-0 w-full -mb-10  px-32 flex justify-between items-center'> 
             <nav className='text-primary font-cg text-xl font-extrabold'>
                 <Header />
             </nav>
-            <nav className="text-primaryDark flex items-center justify-center flex-wrap">
+            <nav className="text-primaryDark flex items-center justify-center flex-wrap pt-5">
                 <motion.a href="https://twitter.com/kaiusse" target={"_blank"}
                 whileHover={{y:-2}}
                 whileTap={{scale:0.9}}

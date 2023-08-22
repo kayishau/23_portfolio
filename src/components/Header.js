@@ -41,7 +41,7 @@ const Header = () => {
     return (
       <>
       
-        <ul key={content} className="inline-block px-5 my-5">
+        <ul key={content} className="inline-block px-5 pt-5">
           <li>
          
             <button onClick={handleClickNav} id="myImage"
