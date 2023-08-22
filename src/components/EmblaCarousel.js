@@ -67,12 +67,12 @@ const EmblaCarousel = (props) => {
               <div className="flex flex-col items-center gap-2 opacity-75 hover:opacity-100 border-2 border-projectBorder hover:border-primary">
                 <img className="embla__slide__img" src={index.img} />
                 <div className="flex flex-col items-center gap-2 opacity-75 border bg-gradient-to-r from-white to-slate-300 p-2">
-                <h1 className="font-cg text-4xl font-extrabold">{index.title}</h1>
-                <h2 className="text-2xl">{index.type}</h2>
+                <h1 className="font-cg text-3xl font-extrabold">{index.title}</h1>
+                <h2 className="text-xl">{index.type}</h2>
                 <p className="font-cg text-xl text-center px-10">{index.summary}</p>
                 <div className="flex w-full justify-around items-center">
                 <a className="hover:underline" href={index.link}>
-                 Demo
+                 {index.link}
                 </a>
                 <a className="h-10 w-10" href={index.github}>
                   <GithubIcon />

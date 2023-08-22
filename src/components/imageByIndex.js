@@ -14,17 +14,17 @@ export const projectsArray = [
     img: "/img/projects/image-coming-soon.jpeg",
     summary:
       "A mini Wiki app on Web3 topics. Created with NextJS, Tailwind CSS, Framer-Motion, MongoDB Atlas and NodeJS",
-    link: "https://github.com/kayishau/web3-wiki",
+    // link: "https://github.com/kayishau/web3-wiki",
     type: "Featured Project",
     github:
       "https://github.com/kayishau/web3-wiki",
   },
   {
     title: "Carbon FootPrint Tracker",
-    img: "/img/projects/image-coming-soon.jpeg",
+    img: "/img/projects/carbonfp.png",
     summary:
-      "An app that helps you log and track your personal carbon footprint. Created with React, Tailwind CSS, Framer-Motion, MongoDB Atlas, NodeJS and Chartjs",
-    link: "https://github.com/tiffanysimione/ProjectThree-CarbonFootprint-FrontEnd",
+      "An app that helps you log and track your personal carbon footprint. Created with React, Tailwind CSS, Framer-Motion, MongoDB Atlas, NodeJS and Chartjs  - Project currently being refactored",
+    // link: "https://github.com/tiffanysimione/ProjectThree-CarbonFootprint-FrontEnd",
     type: "Featured Project",
     github:
       "https://github.com/tiffanysimione/ProjectThree-CarbonFootprint-FrontEnd",
@@ -34,7 +34,7 @@ export const projectsArray = [
     img: "/img/projects/wtw.png",
     summary:
       "Catagorical by tags full crud blog app utilizing EJS, Express and AOS library - Project currently being refactored in python",
-    link: "https://github.com/kayishau/WTW-Blog",
+    // link: "https://github.com/kayishau/WTW-Blog",
     type: "Featured Project",
     github:
       "https://github.com/kayishau/WTW-Blog",
