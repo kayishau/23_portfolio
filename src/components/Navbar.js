@@ -9,7 +9,7 @@ const NavBar = () => {
 
     return (
         <>
-        <header className='sticky top-0 w-full px-32 -mb-12 flex justify-between items-center -mt-9'> 
+        <header className='sticky top-0 w-full px-32 flex justify-between items-center'> 
             <nav className='text-primary font-cg text-xl font-extrabold'>
                 <Header />
             </nav>
