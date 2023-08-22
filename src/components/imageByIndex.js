@@ -2,6 +2,7 @@ export const projectsArray = [
   {
     title: "Community Test Lab",
     img: "/img/projects/ctl.png",
+    video: "",
     summary:
     "We used the U.S. COVID-19 Self-Test Data and Covid-19 Case Surveillance Public Use Data sets to build the Community Test Lab Mobile App, streamlining the sharing of diagnostic test data. Using React Native CLI, Typescript, NativeWind, PostgresSOL, NodeJS, Crypto, BCrypt and Jest",
     link: "https://github.com/sramalho94/TOP_Frontend",
