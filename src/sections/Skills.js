@@ -33,8 +33,26 @@ export default function Skills() {
          
         }}
       >
-        <h2 className="font-cg text-4xl font-extrabold mt-0">Skills</h2>
-        {/* TODO: make cards or figure out formatting for skills section */}
+        <div className="w-10/12 h-screen gap-10 flex flex-col border border-green-700 justify-center"
+        style={{
+          backgroundImage: "url(/img/skillsbg.png)",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",       
+        }}
+        >
+        <h1 className="font-cg text-4xl text-center border border-black font-extrabold mt-10">Skills :)</h1>
+        <div className="flex text-center justify-around border border-black">
+          <div className="w-1/3">
+          <h2>Frontend</h2>
+          </div>
+          <div className="w-1/3">
+          <h2>Languages</h2>
+          </div>
+          <div className="w-1/3">
+          <h2>Backend</h2>
+          </div>
+        </div>
+        </div>
 
            
 
