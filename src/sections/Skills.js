@@ -32,8 +32,8 @@ export default function Skills() {
           backgroundPosition: "bottom",
         }}
       >
-        <div className="w-10/12 flex flex-col">
-          <h1 className="font-cg text-4xl text-center font-extrabold mt-10">
+        <div className="w-10/12 flex flex-col  gap-10 ">
+          <h1 className="font-cg text-4xl text-center font-extrabold">
             Skills :)
           </h1>
           <p className="font-cg text-xl text-center">
@@ -47,34 +47,56 @@ export default function Skills() {
                 backgroundImage: "url(/img/front.png)",
                 backgroundSize: "contain",
                 backgroundRepeat: "no-repeat",
-                height: "500px",
+                height: "400px",
                 backgroundPosition: "center",
               }}
             >
               <div className="flex flex-wrap gap-5 justify-center px-5">
                 <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.9 }}>
-                  <FaReact className="w-11 h-11" />
+                  <FaReact className="w-11 h-11" 
+                  style={{
+                    color: "#684C42"
+                  }}/>
                 </motion.div>
                 <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.9 }}>
-                  <SiNextdotjs className="w-11 h-11" />
+                  <SiNextdotjs className="w-11 h-11"  style={{
+                    color: "#684C42"
+                  }} />
                 </motion.div>
                 <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.9 }}>
-                  <FiFigma className="w-11 h-11" />
+                  <FiFigma className="w-11 h-11" 
+                  style={{
+                    color: "#684C42"
+                  }}/>
                 </motion.div>
                 <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.9 }}>
-                  <SiCanva className="w-11 h-11" />
+                  <SiCanva className="w-11 h-11" style={{
+                    color: "#684C42"
+                  }} />
                 </motion.div>
                 <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.9 }}>
-                  <SiAdobe className="w-11 h-11" />
+                  <SiAdobe className="w-11 h-11"
+                  style={{
+                    color: "#684C42"
+                  }} />
                 </motion.div>
                 <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.9 }}>
-                  <RiBootstrapLine className="w-11 h-11" />
+                  <RiBootstrapLine className="w-11 h-11" 
+                  style={{
+                    color: "#684C42"
+                  }}/>
                 </motion.div>
                 <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.9 }}>
-                  <SiTailwindcss className="w-11 h-11" />
+                  <SiTailwindcss className="w-11 h-11" 
+                   style={{
+                    color: "#684C42"
+                  }}/>
                 </motion.div>
                 <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.9 }}>
-                  <TbBrandFramerMotion className="w-11 h-11" />
+                  <TbBrandFramerMotion className="w-11 h-11" 
+                  style={{
+                    color: "#684C42"
+                  }}/>
                 </motion.div>
               </div>
             </div>
@@ -85,19 +107,28 @@ export default function Skills() {
                 backgroundImage: "url(/img/languages.png)",
                 backgroundSize: "contain",
                 backgroundRepeat: "no-repeat",
-                height: "500px",
+                height: "400px",
                 backgroundPosition: "center",
               }}
             >
               <div className="flex flex-wrap gap-5 justify-center">
                 <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.9 }}>
-                  <FaRust className="w-11 h-11" />
+                  <FaRust className="w-11 h-11" 
+                  style={{
+                    color: "#684C42"
+                  }}/>
                 </motion.div>
                 <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.9 }}>
-                  <FaPython className="w-11 h-11" />
+                  <FaPython className="w-11 h-11" 
+                   style={{
+                    color: "#684C42"
+                  }}/>
                 </motion.div>
                 <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.9 }}>
-                  <RiJavascriptLine className="w-11 h-11" />
+                  <RiJavascriptLine className="w-11 h-11"
+                  style={{
+                    color: "#684C42"
+                  }} />
                 </motion.div>
               </div>
             </div>
@@ -108,38 +139,65 @@ export default function Skills() {
                 backgroundImage: "url(/img/back.png)",
                 backgroundSize: "contain",
                 backgroundRepeat: "no-repeat",
-                height: "500px",
+                height: "400px",
                 backgroundPosition: "center",
               }}
             >
               <div className="flex flex-wrap gap-5 justify-center px-5">
                 <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.9 }}>
-                  <FaNodeJs className="w-11 h-11" />
+                  <FaNodeJs className="w-11 h-11" 
+                  style={{
+                    color: "#684C42"
+                  }}/>
                 </motion.div>
                 <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.9 }}>
-                  <BiLogoPostgresql className="w-11 h-11" />
+                  <BiLogoPostgresql className="w-11 h-11" 
+                   style={{
+                    color: "#684C42"
+                  }} />
                 </motion.div>
                 <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.9 }}>
-                  <TbBrandDjango className="w-11 h-11" />
+                  <TbBrandDjango className="w-11 h-11" 
+                  style={{
+                    color: "#684C42"
+                  }}/>
                 </motion.div>
                 <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.9 }}>
-                  <SiMongodb className="w-11 h-11" />
+                  <SiMongodb className="w-11 h-11" 
+                   style={{
+                    color: "#684C42"
+                  }}/>
                 </motion.div>
                 <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.9 }}>
-                  <SiJest className="w-11 h-11" />
+                  <SiJest className="w-11 h-11"
+                  style={{
+                    color: "#684C42"
+                  }} />
                 </motion.div>
                 <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.9 }}>
-                  <SiPostman className="w-11 h-11" />
+                  <SiPostman className="w-11 h-11" 
+                  style={{
+                    color: "#684C42"
+                  }}/>
                 </motion.div>
                 <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.9 }}>
-                  <SiTrello className="w-11 h-11" />
+                  <SiTrello className="w-11 h-11"
+                   style={{
+                    color: "#684C42"
+                  }} />
                 </motion.div>
                 <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.9 }}>
-                  <FaJira className="w-11 h-11" />
+                  <FaJira className="w-11 h-11" 
+                  style={{
+                    color: "#684C42"
+                  }}/>
                 </motion.div>
 
                 <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.9 }}>
-                  <SiExpress className="w-11 h-11" />
+                  <SiExpress className="w-11 h-11"   
+                  style={{
+                    color: "#684C42"
+                  }}/>
                 </motion.div>
               </div>
             </div>
@@ -152,3 +210,5 @@ export default function Skills() {
     </>
   );
 }
+
+// FA6A01
