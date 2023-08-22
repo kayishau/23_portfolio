@@ -1,9 +1,9 @@
 export const projectsArray = [
   {
     title: "Community Test Lab",
-    img: "/img/projects/image-coming-soon.jpeg",
+    img: "/img/projects/ctl.png",
     summary:
-    "We used the U.S. COVID-19 Self-Test Data and Covid-19 Case Surveillance Public Use Data sets to build the Community Test Lab Mobile App, streamlining the sharing of diagnostic test data. This solution aids test users in sharing standardized COVID-19 test results, enhancing public health decision-making while building public trust.",
+    "We used the U.S. COVID-19 Self-Test Data and Covid-19 Case Surveillance Public Use Data sets to build the Community Test Lab Mobile App, streamlining the sharing of diagnostic test data. Using React Native CLI, Typescript, NativeWind, PostgresSOL, NodeJS, Crypto, BCrypt and Jest",
     link: "https://github.com/sramalho94/TOP_Frontend",
     type: "Featured Project",
     github:
@@ -23,7 +23,7 @@ export const projectsArray = [
     title: "Carbon FootPrint Tracker",
     img: "/img/projects/image-coming-soon.jpeg",
     summary:
-      "An app that helps you log and track your personal carbon footprint. Created with React, Tailwind CSS, Framer-Motion, MongoDB Atlas and NodeJS, Chartjs",
+      "An app that helps you log and track your personal carbon footprint. Created with React, Tailwind CSS, Framer-Motion, MongoDB Atlas, NodeJS and Chartjs",
     link: "https://github.com/tiffanysimione/ProjectThree-CarbonFootprint-FrontEnd",
     type: "Featured Project",
     github:
@@ -31,9 +31,9 @@ export const projectsArray = [
   },
   {
     title: "WTW Blog",
-    img: "/img/projects/image-coming-soon.jpeg",
+    img: "/img/projects/wtw.png",
     summary:
-      "Catagorical by tags blog app utilizing EJS - Currently being refactored in python",
+      "Catagorical by tags full crud blog app utilizing EJS, Express and AOS library - Project currently being refactored in python",
     link: "https://github.com/kayishau/WTW-Blog",
     type: "Featured Project",
     github:
