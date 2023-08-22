@@ -3,6 +3,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import { flushSync } from "react-dom";
 import "../embla.css";
 import { GithubIcon } from "./Icons";
+import Modal from "./Modal";
 
 const TWEEN_FACTOR = 4.2;
 
@@ -13,6 +14,7 @@ const EmblaCarousel = (props) => {
   const { slides, options } = props;
   const [emblaRef, emblaApi] = useEmblaCarousel(options);
   const [tweenValues, setTweenValues] = useState([]);
+  const [openModal, setOpenModal] = useState(false)
 
   const onScroll = useCallback(() => {
     if (!emblaApi) return;
@@ -74,6 +76,8 @@ const EmblaCarousel = (props) => {
                 <a className="hover:underline" href={index.link}>
                  {index.link}
                 </a>
+                {/* <button onClick={() => setOpenModal(true)} onClose={()=> setOpenModal(false)}>Modal</button>
+                <Modal open={openModal}  onClose={()=> setOpenModal(false)}/> */}
                 <a className="h-10 w-10" href={index.github}>
                   <GithubIcon />
                 </a>
