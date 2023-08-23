@@ -4,14 +4,6 @@ const Contact = () => {
       <section
         id="contactSection"
         className="w-full min-h-screen flex flex-col items-center justify-center border-t border-slate-500"
-        style={{
-          backgroundImage: "url(/img/finalTexture.png)",
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "bottom",
-          height: "600px",
-          width: "800px",
-        }}
       >
         <div
           className="w-full min-h-screen flex items-center justify-end"
@@ -36,6 +28,7 @@ const Contact = () => {
             <a
               href="mailto:ulyssekayisha@gmail.com"
               target={"_blank"}
+              rel="noreferrer"
               className=" text-lg text-dark font-cg font-extrabold underline"
             >
               <span>Email:</span>
@@ -43,6 +36,7 @@ const Contact = () => {
             <a
               href="mailto:ulyssekayisha@gmail.com"
               target={"_blank"}
+              rel="noreferrer"
               className="ml-4 text-lg text-dark font-cg font-extrabold"
             >
               <span className="hover:bg-primary hover:text-white p-1">ulyssekayisha@gmail.com</span>
@@ -52,6 +46,7 @@ const Contact = () => {
             <a
               href="https://calendly.com/ulyssekayisha"
               target={"_blank"}
+              rel="noreferrer"
               className=" text-lg text-dark font-cg font-extrabold underline"
             >
               <span>Calendly:</span>
@@ -59,6 +54,7 @@ const Contact = () => {
             <a
               href="https://calendly.com/ulyssekayisha"
               target={"_blank"}
+              rel="noreferrer"
               className="ml-4 text-lg text-dark font-cg font-extrabold"
             >
               <span className="hover:bg-primary hover:text-white p-1">Kayisha's calendly</span>

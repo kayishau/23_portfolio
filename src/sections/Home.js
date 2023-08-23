@@ -2,22 +2,14 @@ import { LinkArrow } from "../components/Icons";
 import AnimatedText from "../components/AnimatedText";
 import TransitionEffect from "../components/TransitionEffect";
 import AnimatedTextWord from "../components/AnimatedTextWord";
+import "../index.css";
 
 const Home = ({ childern, className = "" }) => {
   return (
     <>
       <TransitionEffect />
-      <div
-        id="homeSection"
-        style={{
-          backgroundImage: "url(/img/finalTexture.png)",
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "bottom",
-          height: "600px",
-          width: "800px",
-          // marginBottom: "5px"
-        }}
+      <section
+      id="homeSection"
         className="flex flex-col items-center justify-center w-full min-h-screen border-b-1 border-slate-500"
       >
         <div className={`${className} w-full min-h-full`}>
@@ -60,6 +52,7 @@ const Home = ({ childern, className = "" }) => {
                 <a
                   href="mailto:ulyssekayisha@gmail.com"
                   target={"_blank"}
+                  rel="noreferrer"
                   className="ml-4 text-lg text-dark font-cg font-extrabold underline"
                 >
                   <span>Contact me 😊</span>
@@ -71,7 +64,7 @@ const Home = ({ childern, className = "" }) => {
         </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

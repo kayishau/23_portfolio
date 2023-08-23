@@ -3,28 +3,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* 
-style={{
-    backgroundImage: "url(/img/finalTexture.png)",
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-    backgroundPosition: "bottom",
-    height: "600px",
-    width: "800px",
-  }} */
 
-  #aboutSection {
+ #skillsSection, #projectection, #contactSection, #projectsSection, #homeSection, #aboutSection {
     background-Image: url(/public/img/finaltexture.png);
-    background-Size: cover;
-    background-Repeat: no-repeat;
-    background-Position: bottom;
-    height: 100vh;
-    width: 100vw;
-  }
-
-
-  #skillsSection {
-    background-Image:url(/public/img/finaltexture.png);
     background-Size: cover;
     background-Repeat: no-repeat;
     background-Position: bottom;

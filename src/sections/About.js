@@ -1,7 +1,5 @@
-import React, { Component } from "react";
-import AnimatedText from "../components/AnimatedText";
+import React from "react";
 import AboutPictures from "../components/AboutAOS";
-import Fadein from "../components/AboutAOS";
 import "../index.css"
 
 const About = () => {
@@ -35,7 +33,7 @@ const About = () => {
            Hi I'm Kayisha (kai-yee-sha) a <span>New York native </span>born and raised with family origins hailing from the Caribbean.🌴 I speak 2 languages fluently and 2 intermediatley. Family and purpose are my main source of drive, and I am always down to throw my unique perspective on any topic or project. 
           </p>
           <p className="mb-4 font-medium pr-8 font-cg">
-          Though my B.S. is in Interior Design, I've always had an affinity for Tech, dating back to when I first joined my highschool robotics team and competed on a national stage. Later in life, after a joining a <span><a href="https://twitter.com/litter_token?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target={"_blank"} className="underline">Web3 project based off of my love for the enviroment</a>, I was introduced to the world of blockchain, ReFi, tokenomics, crypto, smart contracts, ZK etc. which reignited my desire to become an engineer.</span> After completing an Immersive bootcamp and learning the basics, I took it upon myself to keep building and I'm excited to keep growing and see where this journey leads me.
+          Though my B.S. is in Interior Design, I've always had an affinity for Tech, dating back to when I first joined my highschool robotics team and competed on a national stage. Later in life, after a joining a <span><a href="https://twitter.com/litter_token?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target={"_blank"} rel="noreferrer" className="underline">Web3 project based off of my love for the enviroment</a>, I was introduced to the world of blockchain, ReFi, tokenomics, crypto, smart contracts, ZK etc. which reignited my desire to become an engineer.</span> After completing an Immersive bootcamp and learning the basics, I took it upon myself to keep building and I'm excited to keep growing and see where this journey leads me.
           </p>
 
           <p className="font-medium pr-8 font-cg">
