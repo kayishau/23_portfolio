@@ -1,7 +1,8 @@
-import React from 'react'
-import { motion } from 'framer-motion'
-import { LinkedInIcon, GithubIcon, TwitterIcon, Barbell } from './Icons'
-import Header from './Header'
+import React from 'react';
+import { motion } from 'framer-motion';
+import Header from './Header';
+import { FaTwitter, FaLinkedin } from "react-icons/fa";
+import { PiGithubLogoFill } from "react-icons/pi";
 
 
 
@@ -14,21 +15,21 @@ const NavBar = () => {
                 <Header />
             </nav>
             <nav className="text-primaryDark flex items-center justify-center flex-wrap pt-5">
-                <motion.a href="https://twitter.com/kaiusse" target={"_blank"}
+                <motion.a href="https://twitter.com/kaiusse" target={"_blank"} rel="noreferrer" 
                 whileHover={{y:-2}}
                 whileTap={{scale:0.9}}
                 className="w-6 mx-3">
-                    <TwitterIcon />
+                  <FaTwitter className='w-8 h-8' />
                 </motion.a>
-                <motion.a href="https://github.com/kayishau" target={"_blank"} className="w-6 mx-3"
+                <motion.a href="https://github.com/kayishau" target={"_blank"} rel="noreferrer"  className="w-6 mx-5"
                  whileHover={{y:-2}}
                  whileTap={{scale:0.9}}>
-                    <GithubIcon />
+                    <PiGithubLogoFill className='w-8 h-8' />
                 </motion.a>
-                <motion.a href="https://www.linkedin.com/in/kayisha-ulysse/" target={"_blank"} className="w-6 ml-3"
+                <motion.a href="https://www.linkedin.com/in/kayisha-ulysse/" target={"_blank"}  rel="noreferrer" className="w-6 ml-3"
                  whileHover={{y:-2}}
                  whileTap={{scale:0.9}}>
-                    <LinkedInIcon />
+                   <FaLinkedin className='w-8 h-8' />
                 </motion.a>      
             </nav>
             

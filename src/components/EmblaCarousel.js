@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { flushSync } from "react-dom";
 import "../embla.css";
-import { GithubIcon } from "./Icons";
+import { PiGithubLogoFill } from "react-icons/pi";
 
 const TWEEN_FACTOR = 4.2;
 
@@ -65,7 +65,7 @@ const EmblaCarousel = (props) => {
                 <span>{index + 1}</span>
               </div>
               <div className="flex flex-col items-center gap-2 opacity-75 hover:opacity-100 border-2 border-projectBorder hover:border-primary">
-                <img className="embla__slide__img" src={index.img} />
+                <img className="embla__slide__img" src={index.img} alt="project photo" />
                 <div className="flex flex-col items-center gap-2 opacity-75 border bg-gradient-to-r from-white to-slate-300 p-2">
                 <h1 className="font-cg text-3xl font-extrabold">{index.title}</h1>
                 <h2 className="text-xl">{index.type}</h2>
@@ -74,9 +74,9 @@ const EmblaCarousel = (props) => {
                 <a className="hover:underline" href={index.link}>
                  Link
                 </a>
-                <a className="hover:underline" href={index.demo}>Demo</a>
+                <a className="hover:underline" href={index.demo} target={"_blank"} rel="noreferrer" >Demo</a>
                 <a className="h-10 w-10" href={index.github}>
-                  <GithubIcon />
+                  <PiGithubLogoFill className="w-8 h-8"/>
                 </a>
                 </div>
                 </div>
