@@ -10,10 +10,12 @@ const Home = ({ childern, className = "" }) => {
       <section
         id="homeSection"
         style={{
-          backgroundImage: "url(/img/bgImg/finalTexture.png)",
+          backgroundImage: "url(/img/finalTexture.png)",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "bottom",
+          height: "600px",
+          width: "800px",
           // marginBottom: "5px"
         }}
         className="flex flex-col items-center justify-center w-full min-h-screen border-b-1 border-slate-500"

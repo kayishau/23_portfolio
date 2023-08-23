@@ -22,10 +22,12 @@ export default function Projects() {
       id="projectsSection"
       className="w-full min-h-screen flex flex-col items-center justify-center border-t border-slate-500"
       style={{
-        backgroundImage: "url(/img/bgImg/finalTexture.png)",
+        backgroundImage: "url(/img/finalTexture.png)",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "bottom",
+        height: "600px",
+        width: "800px",
       }}>
         <h1 className="font-cg text-4xl font-extrabold mt-10">Creatively Coding :)</h1>
       <section className="sandbox__carousel">

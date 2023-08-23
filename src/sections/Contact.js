@@ -5,10 +5,12 @@ const Contact = () => {
         id="contactSection"
         className="w-full min-h-screen flex flex-col items-center justify-center border-t border-slate-500"
         style={{
-          backgroundImage: "url(/img/bgImg/finalTexture.png)",
+          backgroundImage: "url(/img/finalTexture.png)",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "bottom",
+          height: "600px",
+          width: "800px",
         }}
       >
         <div

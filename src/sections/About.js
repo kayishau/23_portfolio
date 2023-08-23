@@ -10,10 +10,12 @@ const About = () => {
         id="aboutSection"
         className="flex flex-wrap items-center justify-center min-h-screen w-full border-t border-slate-500" 
         style={{
-          backgroundImage: "url(/img/bgImg/finalTexture.png)",
+          backgroundImage: "url(/img/finalTexture.png)",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "bottom",
+          height: "600px",
+          width: "800px",
         }}
       >
         <div className="w-1/2 min-h-screen">

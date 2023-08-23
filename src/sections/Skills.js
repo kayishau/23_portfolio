@@ -26,10 +26,12 @@ export default function Skills() {
         id="skillsSection"
         className="flex flex-wrap flex-col items-center min-h-screen w-full border-t border-slate-500"
         style={{
-          backgroundImage: "url(/img/bgImg/finalTexture.png)",
+          backgroundImage: "url(/img/finalTexture.png)",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "bottom",
+          height: "600px",
+          width: "800px",
         }}
       >
         <div className="w-10/12 flex flex-col gap-10 mt-10">
