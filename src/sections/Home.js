@@ -64,9 +64,9 @@ const Home = ({ childern, className = "" }) => {
                 </a>
               </div>
             </div>
-            <div className=" font-cg self-end mb-20 ml-5">
-              <h1 className="text-black text-4xl self-end">1</h1>
-            </div>
+            <div className="self-end pb-12">
+          <h1 className="font-cg text-black text-2xl">1</h1>
+        </div>
           </div>
         </div>
       </section>

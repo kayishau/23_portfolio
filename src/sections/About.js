@@ -38,9 +38,10 @@ const About = () => {
           <p className="font-medium pr-8 font-cg">
             When I'm not hacking away, you'll usually find me hiking, reading, playing sports (volleyball or football are my go-tos), playing my sax, attemptinig to learn a new language, hitting up bachata or salsa classes or curating the freshest of playlist. My go to song for an energy boost is 'La Santa' by Bad Bunny and my tops genres are Afrobeats, Reggaeton and RnB. In a crowded room, I am defineltey the one who iniaties the dancing. 
           </p>
+        
         </div>
-        <div className=" font-cg self-end -ml-5  mb-20">
-          <h1 className="text-black text-4xl self-end">2</h1>
+        <div className="self-end pb-16 -ml-8 ">
+          <h1 className="font-cg  text-black text-2xl">2</h1>
         </div>
       </section>
     </>

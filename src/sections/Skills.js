@@ -24,7 +24,7 @@ export default function Skills() {
     <>
       <section
         id="skillsSection"
-        className="flex flex-wrap flex-col items-center justify-center min-h-screen w-full border-t border-slate-500"
+        className="flex flex-wrap flex-col items-center min-h-screen w-full border-t border-slate-500"
         style={{
           backgroundImage: "url(/img/finalTexture.png)",
           backgroundSize: "cover",
@@ -32,12 +32,12 @@ export default function Skills() {
           backgroundPosition: "bottom",
         }}
       >
-        <div className="w-10/12 flex flex-col  gap-10 ">
+        <div className="w-10/12 flex flex-col gap-10 mt-10">
           <h1 className="font-cg text-4xl text-center font-extrabold">
             Skills :)
           </h1>
           <p className="font-cg text-xl text-center">
-            “Improve by 1% a day, and in just 70 days, you’re twice as good.” –
+            “Improve by 1% a day, and in just 70 days, you’re twice as good.”🌱 –
             Alan Weiss
           </p>
           <div className="flex">
@@ -203,8 +203,8 @@ export default function Skills() {
             </div>
           </div>
         </div>
-        <div className=" font-cg self-end mb-10 mr-6">
-          <h1 className="text-black text-4xl self-end">3</h1>
+        <div className="self-end mr-8">
+          <h1 className="font-cg text-black text-2xl">3</h1>
         </div>
       </section>
     </>
