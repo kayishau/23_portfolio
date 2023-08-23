@@ -14,6 +14,7 @@ import { FiFigma } from "react-icons/fi";
 import { RiJavascriptLine, RiBootstrapLine } from "react-icons/ri";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { TbBrandDjango, TbBrandFramerMotion } from "react-icons/tb";
+import "../index.css"
 import { motion } from "framer-motion";
 
 export default function Skills() {
@@ -22,17 +23,17 @@ export default function Skills() {
   //   }, []);
   return (
     <>
-      <section
+      <div
         id="skillsSection"
         className="flex flex-wrap flex-col items-center min-h-screen w-full border-t border-slate-500"
-        style={{
-          backgroundImage: "url(/img/finalTexture.png)",
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "bottom",
-          height: "600px",
-          width: "800px",
-        }}
+        // style={{
+        //   backgroundImage: "url(/img/finalTexture.png)",
+        //   backgroundSize: "cover",
+        //   backgroundRepeat: "no-repeat",
+        //   backgroundPosition: "bottom",
+        //   height: "600px",
+        //   width: "800px",
+        // }}
       >
         <div className="w-10/12 flex flex-col gap-10 mt-10">
           <h1 className="font-cg text-4xl text-center font-extrabold">
@@ -208,7 +209,7 @@ export default function Skills() {
         <div className="self-end mr-8 mt-12">
           <h1 className="font-cg text-black text-2xl">3</h1>
         </div>
-      </section>
+      </div>
     </>
   );
 }

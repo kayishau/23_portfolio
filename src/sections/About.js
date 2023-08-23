@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import AnimatedText from "../components/AnimatedText";
 import AboutPictures from "../components/AboutAOS";
 import Fadein from "../components/AboutAOS";
+import "../index.css"
 
 const About = () => {
   return (
@@ -9,14 +10,14 @@ const About = () => {
       <section
         id="aboutSection"
         className="flex flex-wrap items-center justify-center min-h-screen w-full border-t border-slate-500" 
-        style={{
-          backgroundImage: "url(/img/finalTexture.png)",
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "bottom",
-          height: "600px",
-          width: "800px",
-        }}
+        // style={{
+        //   backgroundImage: "url(/img/finalTexture.png)",
+        //   backgroundSize: "cover",
+        //   backgroundRepeat: "no-repeat",
+        //   backgroundPosition: "bottom",
+        //   height: "600px",
+        //   width: "800px",
+        // }}
       >
         <div className="w-1/2 min-h-screen">
           {/* Add Picture fade in component here */}

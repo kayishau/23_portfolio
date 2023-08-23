@@ -7,7 +7,7 @@ const Home = ({ childern, className = "" }) => {
   return (
     <>
       <TransitionEffect />
-      <section
+      <div
         id="homeSection"
         style={{
           backgroundImage: "url(/img/finalTexture.png)",
@@ -71,7 +71,7 @@ const Home = ({ childern, className = "" }) => {
         </div>
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 };
