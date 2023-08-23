@@ -10,7 +10,7 @@ const Home = ({ childern, className = "" }) => {
       <section
         id="homeSection"
         style={{
-          backgroundImage: "url(/img/finalTexture.png)",
+          backgroundImage: "url(/img/bgImg/finalTexture.png)",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "bottom",

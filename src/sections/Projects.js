@@ -22,7 +22,7 @@ export default function Projects() {
       id="projectsSection"
       className="w-full min-h-screen flex flex-col items-center justify-center border-t border-slate-500"
       style={{
-        backgroundImage: "url(/img/finalTexture.png)",
+        backgroundImage: "url(/img/bgImg/finalTexture.png)",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "bottom",
