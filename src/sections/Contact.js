@@ -39,7 +39,7 @@ const Contact = () => {
               rel="noreferrer"
               className="ml-4 text-lg text-dark font-cg font-extrabold"
             >
-              <span className="hover:bg-primary hover:text-white p-1">ulyssekayisha@gmail.com</span>
+              <span className="delay-150 hover:bg-primary hover:text-white p-1">ulyssekayisha@gmail.com</span>
             </a>
             </div>
             <div className="flex justify-start ml-4">
@@ -57,7 +57,7 @@ const Contact = () => {
               rel="noreferrer"
               className="ml-4 text-lg text-dark font-cg font-extrabold"
             >
-              <span className="hover:bg-primary hover:text-white p-1">Kayisha's calendly</span>
+              <span className="delay-150 hover:bg-primary hover:text-white p-1">Kayisha's calendly</span>
             </a>
             </div>
             
