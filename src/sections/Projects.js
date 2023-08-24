@@ -14,14 +14,14 @@ export default function Projects() {
     <>
     <section
       id="projectsSection"
-      className="w-full min-h-screen flex flex-col items-center justify-center border-t border-slate-500">
+      className="w-full min-h-screen flex flex-col justify-center border-t border-slate-500">
         {/* <h1 className="font-cg text-4xl font-extrabold mt-10">Creatively Coding :)</h1> */}
-      <section className="sandbox__carousel">
+      <section className="justify-center flex flex-col my-5">
       <EmblaCarousel slides={SLIDES} options={OPTIONS} />
-    </section>
-    <div className="self-end pb-16 mr-8">
+      <div className="self-end mr-8">
           <h1 className="font-cg text-black text-2xl">4</h1>
         </div>
+    </section>
     </section>
     </>
     

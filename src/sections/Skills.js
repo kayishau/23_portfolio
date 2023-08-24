@@ -22,7 +22,7 @@ export default function Skills() {
     <>
       <section
         id="skillsSection"
-        className="flex flex-wrap flex-col items-center min-h-screen w-full border-t border-slate-500"
+        className="flex flex-col justify-center mx-auto items-center min-h-screen w-full border-t border-slate-500"
       >
         <div className="w-10/12 flex flex-col gap-10 mt-10">
           <h1 className="font-cg text-4xl text-center font-extrabold">
@@ -34,7 +34,7 @@ export default function Skills() {
           </p>
           <div className="flex">
             <div
-              className="flex flex-wrap w-1/3 justify-center items-center border border-blue-600" 
+              className="flex flex-wrap w-1/3 justify-center items-center" 
               style={{
                 backgroundImage: "url(/img/front.png)",
                 backgroundSize: "contain",
