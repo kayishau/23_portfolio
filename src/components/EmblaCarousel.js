@@ -65,7 +65,7 @@ const EmblaCarousel = (props) => {
                 <span>{index + 1}</span>
               </div>
               <div className="flex flex-col items-center gap-2 opacity-75 hover:opacity-100 border-2 border-projectBorder hover:border-primary">
-                <img className="embla__slide__img" src={index.img} alt="project photo" />
+                <img className="embla__slide__img" src={index.img} alt="project display" />
                 <div className="flex flex-col items-center gap-2 opacity-75 border bg-gradient-to-r from-white to-slate-300 p-2">
                 <h1 className="font-cg text-3xl font-extrabold">{index.title}</h1>
                 <h2 className="text-xl">{index.type}</h2>

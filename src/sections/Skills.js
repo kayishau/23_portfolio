@@ -34,7 +34,7 @@ export default function Skills() {
           </p>
           <div className="flex">
             <div
-              className="flex flex-wrap w-1/3 justify-center items-center"
+              className="flex flex-wrap w-1/3 justify-center items-center border border-blue-600" 
               style={{
                 backgroundImage: "url(/img/front.png)",
                 backgroundSize: "contain",
@@ -43,7 +43,7 @@ export default function Skills() {
                 backgroundPosition: "center",
               }}
             >
-              <div className="flex flex-wrap gap-5 justify-center px-5">
+              <div className="flex flex-wrap gap-5 justify-center w-4/5 items-center">
                 <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.9 }}>
                   <FaReact className="w-11 h-11" 
                   style={{
@@ -103,7 +103,7 @@ export default function Skills() {
                 backgroundPosition: "center",
               }}
             >
-              <div className="flex flex-wrap gap-5 justify-center">
+              <div className="flex flex-wrap gap-5 justify-center w-4/5 items-center">
                 <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.9 }}>
                   <FaRust className="w-11 h-11" 
                   style={{
@@ -135,7 +135,7 @@ export default function Skills() {
                 backgroundPosition: "center",
               }}
             >
-              <div className="flex flex-wrap gap-5 justify-center px-5">
+              <div className="flex flex-wrap gap-5 justify-center w-4/5 items-center">
                 <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.9 }}>
                   <FaNodeJs className="w-11 h-11" 
                   style={{
