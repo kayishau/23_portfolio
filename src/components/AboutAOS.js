@@ -9,8 +9,8 @@ export default function AboutPictures() {
       }, [])
   return (
     <>
-     <div className="flex w-full mx-4 min-h-screen items-center justify-center">
-          <div id="picture-stack" className="flex flex-col">
+     <div className="flex items-center justify-center lg:-mr-5 mt-16 mb-3 lg:my-0">
+          <div id="picture-stack" className="flex lg:flex-col">
             {/* <Fadein /> */}
             <div
             data-aos="fade-right"
@@ -19,11 +19,10 @@ export default function AboutPictures() {
             data-aos-offset="0"
               style={{
                 backgroundImage: "url(/img/KU1.png)",
-                height: "300px",
-                width: "200px",
-                backgroundSize: "cover",
+                backgroundSize: "contain",
                 backgroundRepeat: "no-repeat",
               }}
+              className="w-[110px] h-[130px] -mr-3  md:w-[250px] md:h-[300px] lg:w-[180px] lg:h-[200px] lg:ml-6 xl:h-[280px] xl:w-[210px] xl:bg-cover"
               alt="Kayisha/designer"
             ></div>
             {/* <div 
@@ -43,11 +42,10 @@ export default function AboutPictures() {
             data-aos-offset="0"
               style={{
                 backgroundImage: "url(/img/KU3.png)",
-                height: "300px",
-                width: "200px",
-                backgroundSize: "cover",
+                backgroundSize: "contain",
                 backgroundRepeat: "no-repeat",
               }}
+              className="w-[110px] h-[130px] md:w-[250px] md:h-[300px] lg:w-[180px] lg:h-[230px] xl:h-[280px] xl:w-[230px] xl:bg-cover"
               alt="Kayisha/nature"
             ></div>
           </div>
@@ -60,11 +58,12 @@ export default function AboutPictures() {
             data-aos-duration="2500"
             style={{
               backgroundImage: "url(/img/KU2.png)",
-              height: "450px",
-              width: "380px",
-              backgroundSize: "cover",
+              // height: "450px",
+              // width: "380px",
+              backgroundSize: "contain",
               backgroundRepeat: "no-repeat",
             }}
+            className="w-[120px] h-[140px] md:w-[270px] md:h-[320px] lg:w-[250px] lg:h-[300px] xl:h-[450px] xl:w-[380px]"
             alt="Kayisha/main"
           ></div>
     </div>

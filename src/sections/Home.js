@@ -13,7 +13,7 @@ const Home = () => {
         className="flex items-center justify-center w-full min-h-screen border-b-1 border-slate-500"
       >
           <div className="flex flex-col lg:flex-row items-center w-full justify-center min-h-full">
-            <div className="flex w-2/3 lg:w-2/5 h-[300px] md:h-[500px] lg:h-[600px] xl:h-[750px]"
+            <div className="flex w-2/3 lg:w-2/5 h-[300px] md:h-[500px] lg:h-[600px] xl:h-[750px] "
               style={{
                 backgroundImage: "url(/img/flowerFixed.png)",
                 backgroundSize: "contain",
