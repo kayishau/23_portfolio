@@ -67,16 +67,16 @@ const EmblaCarousel = (props) => {
               <div className="flex flex-col items-center gap-2 opacity-75 hover:opacity-100 border-2 border-projectBorder hover:border-primary">
                 <img className="embla__slide__img" src={index.img} alt="project display" />
                 <div className="flex flex-col items-center gap-2 opacity-75 border bg-gradient-to-r from-white to-slate-300 p-2">
-                <h1 className="font-cg text-3xl font-extrabold">{index.title}</h1>
-                <h2 className="text-xl">{index.type}</h2>
-                <p className="font-cg text-xl text-center px-10">{index.summary}</p>
+                <h1 className="font-cg text-lg lg:text-3xl xl:text-4xl text-center font-extrabold">{index.title}</h1>
+                <h2 className="text-sm">{index.type}</h2>
+                <p className="font-cg text-xs text-center md:px-10">{index.summary}</p>
                 <div className="flex w-full justify-around items-center">
-                <a className="hover:underline" href={index.link}>
+                <a className="hover:underline text-sm" href={index.link}>
                  Link
                 </a>
-                <a className="hover:underline" href={index.demo} target={"_blank"} rel="noreferrer" >Demo</a>
-                <a className="h-10 w-10" href={index.github}>
-                  <PiGithubLogoFill className="w-8 h-8"/>
+                <a className="hover:underline text-sm" href={index.demo} target={"_blank"} rel="noreferrer" >Demo</a>
+                <a href={index.github}>
+                  <PiGithubLogoFill className="w-5 h-5 lg:w-8 lg:h-8"/>
                 </a>
                 </div>
                 </div>
