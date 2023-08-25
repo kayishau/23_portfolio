@@ -194,12 +194,11 @@ export default function Skills() {
             </div>
           </div>
         </div>
-        <div className="self-end mr-8 mt-12">
-          <h1 className="font-cg text-black text-2xl">3</h1>
+        <div className="self-end mr-5 md:pb-12">
+        <h1 className="font-cg text-black text-sm tablet:text-lg md:text-xl lg:text-2xl">3</h1>
         </div>
       </section>
     </>
   );
 }
 
-// FA6A01

@@ -52,8 +52,8 @@ const Home = () => {
                 </a>
               </div>
             </div>
-            <div className="self-end md:pb-12">
-          <h1 className="font-cg text-black text-2xl">1</h1>
+            <div className="self-end md:pb-12 bg-blue-500 mr-5">
+          <h1 className="font-cg text-black text-sm tablet:text-lg md:text-xl lg:text-2xl">1</h1>
         </div>
           </div>
         
