@@ -6,30 +6,29 @@ const Contact = () => {
         className="w-full min-h-screen flex flex-col items-center justify-center border-t border-slate-500"
       >
         <div
-          className="w-full min-h-screen flex items-center justify-end"
+          className="w-full flex items-center tablet:justify-end justify-center bg-top tablet:bg-center tablet:mt-10 md:mt-0"
           style={{
             backgroundImage: "url(/img/contactbg.png)",
             backgroundSize: "contain",
             backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
             height: "600px",
             width: "800px",
           }}
         >
-          <div className="flex flex-col w-1/2 gap-4 mx-5 px-10 text-center ">
-            <h2 className="text-3xl font-cg font-extrabold">Get it touch :)</h2>
-            <p className="text-lg font-cg">
+          <div className="flex flex-col w-full tablet:w-1/2 gap-4 mx-5 px-12 text-center mt-20 tablet:mt-0">
+            <h2 className="font-cg text-2xl lg:text-3xl xl:text-4xl font-extrabold tablet:mb-3">Get In touch :)</h2>
+            <p className="text-sm xl:text-lg font-cg text-center tablet:text-left tablet:mb-3 self-end">
               If you have a project in mind, general questions, book/resource
               recomendations or want to connect about anything Dev, Web3 or
               design related, please reach out! Always down to meet new people,
               learn something new and/or colloborate 🧡.
             </p>
-            <div className="flex border justify-start ml-4">
+            <div className="flex tablet:justify-start tablet:ml-4">
             <a
               href="mailto:ulyssekayisha@gmail.com"
               target={"_blank"}
               rel="noreferrer"
-              className=" text-lg text-dark font-cg font-extrabold underline"
+              className="text-sm md:text-lg text-dark font-cg font-extrabold underline"
             >
               <span>Email:</span>
             </a>
@@ -37,7 +36,7 @@ const Contact = () => {
               href="mailto:ulyssekayisha@gmail.com"
               target={"_blank"}
               rel="noreferrer"
-              className="ml-4 text-lg text-dark font-cg font-extrabold"
+              className="text-sm ml-4 md:text-lg text-dark font-cg font-extrabold"
             >
               <span className="delay-150 hover:bg-primary hover:text-white p-1">ulyssekayisha@gmail.com</span>
             </a>
@@ -47,7 +46,7 @@ const Contact = () => {
               href="https://calendly.com/ulyssekayisha"
               target={"_blank"}
               rel="noreferrer"
-              className=" text-lg text-dark font-cg font-extrabold underline"
+              className="text-sm md:text-lg text-dark font-cg font-extrabold underline"
             >
               <span>Calendly:</span>
             </a>
@@ -55,7 +54,7 @@ const Contact = () => {
               href="https://calendly.com/ulyssekayisha"
               target={"_blank"}
               rel="noreferrer"
-              className="ml-4 text-lg text-dark font-cg font-extrabold"
+              className="text-sm ml-4 md:text-lg text-dark font-cg font-extrabold"
             >
               <span className="delay-150 hover:bg-primary hover:text-white p-1">Kayisha's calendly</span>
             </a>

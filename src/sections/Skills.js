@@ -28,13 +28,13 @@ export default function Skills() {
           <h1 className="font-cg text-2xl lg:text-3xl xl:text-4xl text-center font-extrabold">
             Skills :)
           </h1>
-          <p className="font-cg text-md xl:text-xl text-center">
+          <p className="font-cg text-md lg:text-xl tablet:my-3 md:mb-0 text-center ">
             “Improve by 1% a day, and in just 70 days, you’re twice as good.”🌱 –
             Alan Weiss
           </p>
-          <div className="flex flex-col md:flex-row items-center justify-center">
+          <div className="flex flex-col tablet:flex-row items-center justify-center">
             <div
-              className="flex flex-wrap w-2/3 md:w-1/3 justify-center items-center h-[200px] md:h-[300px] lg:h-[400px]" 
+              className="flex flex-wrap w-2/3 tablet:w-1/3 justify-center items-center h-[200px] md:h-[300px] lg:h-[400px]" 
               style={{
                 backgroundImage: "url(/img/front.png)",
                 backgroundSize: "contain",
@@ -95,7 +95,7 @@ export default function Skills() {
             </div>
 
             <div
-              className="flex flex-wrap w-2/3 md:w-1/3 justify-center items-center h-[200px] lg:h-[400px]"
+              className="flex flex-wrap w-2/3 tablet:w-1/3 justify-center items-center h-[200px] lg:h-[400px]"
               style={{
                 backgroundImage: "url(/img/languages.png)",
                 backgroundSize: "contain",
@@ -126,7 +126,7 @@ export default function Skills() {
             </div>
 
             <div
-              className="flex flex-wrap w-2/3 md:w-1/3 justify-center items-center h-[200px] lg:h-[400px]"
+              className="flex flex-wrap w-2/3 tablet:w-1/3 justify-center items-center h-[200px] lg:h-[400px]"
               style={{
                 backgroundImage: "url(/img/back.png)",
                 backgroundSize: "contain",
