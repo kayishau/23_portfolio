@@ -4,6 +4,43 @@
     --slide-height: 15rem;
     padding: 1.6rem;
   }
+  @media screen and (min-width: 640px) {
+    .embla {
+      --slide-spacing: 1rem;
+      --slide-size: 100%;
+      --slide-height: 15rem;
+      padding: 1rem;
+      border: 1px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .embla {
+      --slide-spacing: 1rem;
+      --slide-size: 80%;
+      --slide-height: 15rem;
+      padding: 1rem;
+      border: 1px;
+    }
+  }
+  @media screen and (min-width: 800px) {
+    .embla {
+      --slide-spacing: 1rem;
+      --slide-size: 70%;
+      --slide-height: 15rem;
+      padding: 1rem;
+      border: 1px;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .embla {
+      --slide-spacing: 1rem;
+      --slide-size: 60%;
+      --slide-height: 15rem;
+      padding: 1rem;
+      border: 1px;
+    }
+  }
+
   .embla__viewport {
     overflow: hidden;
   }
