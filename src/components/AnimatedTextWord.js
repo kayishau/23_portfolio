@@ -36,7 +36,7 @@ const AnimatedTextWord = ({ text }) => {
   };
 
   return (
-    <motion.div className="text-xl text-primary font-bold font-cg uppercase italic"
+    <motion.div className="flex flex-wrap justify-center text-lg md:text-xl text-primary font-bold font-cg uppercase italic"
       style={{ overflow: "hidden", display: "flex"}}
       variants={container}
       initial="hidden"

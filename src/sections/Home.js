@@ -4,46 +4,41 @@ import TransitionEffect from "../components/TransitionEffect";
 import AnimatedTextWord from "../components/AnimatedTextWord";
 import "../index.css";
 
-const Home = ({ childern, className = "" }) => {
+const Home = () => {
   return (
     <>
       <TransitionEffect />
       <section
       id="homeSection"
-        className="flex flex-col items-center justify-center w-full min-h-screen border-b-1 border-slate-500"
+        className="flex items-center justify-center w-full min-h-screen border-b-1 border-slate-500"
       >
-        <div className={`${className} w-full min-h-full`}>
-          {childern}
-
-          <div className="flex items-center w-full justify-center min-h-full border-4 border-red-600">
-            <div className="w-1/2 flex items-center lg:w-2/5 justify-center border border-indigo-500"
+          <div className="flex flex-col lg:flex-row items-center w-full justify-center min-h-full">
+            <div className="flex w-2/3 lg:w-2/5 h-[300px] md:h-[500px] lg:h-[600px] xl:h-[750px]"
               style={{
                 backgroundImage: "url(/img/flowerFixed.png)",
-                height: "100vh",
                 backgroundSize: "contain",
                 backgroundRepeat: "no-repeat",
-                backgroundPosition: "center"
+                backgroundPosition: "center",
               }}
-              alt="watercolor flowers image"
+              alt="watercolor flowers image powered by midjourney"
             >
             </div>
 
-            <div className="w-1/2 flex flex-col items-center self-center -ml-20">
+            <div className="w-full lg:w-1/2 px-6 lg:px-2 flex flex-col items-center justify-center">
               <AnimatedText
                 text="Kayisha Ulysse"
-                className="mb-6 font-cg font-bold tracking-wider"
+                className="my-4 lg:my-5 font-cg font-bold tracking-wider"
               />
               <AnimatedTextWord text="SOFTWARE ENGINEER | DESIGNER | ENVIROMENTALIST | DIVERSITY ADVOCATE" />
 
-              <p className="my-6 text-base font-cg font-medium">
-              I'm an upbeat and creative Software Engineer who's absolutely smitten with everything related to design, the environment, and Web3! My brain is wired to think outside the box in the most creative ways possible. Taking abstract design and code concepts and transforming them into real-world solutions is not just a talent for me – it's a challenge that I am always excited to take on! 
+              <p className="my-3 lg:my-5 xl:my-7 text-base text-center lg:text-left font-cg font-medium lg:text-lg xl:text-xl">
+              I'm an upbeat and creative Software Engineer who's absolutely gassed with everything and anything related to design, the environment, and Web3! My brain is wired to think outside the box in the most creative ways possible. Taking abstract design and code concepts and transforming them into real-world solutions is not just a talent for me – it's a challenge that I am always excited to take on! 
               </p>
-              <div className="flex items-center self-start mt-2">
+              <div className="flex items-center lg:self-start mt-2">
                 <a
-                  href="/UlysseKayisha_Resume_23.pdf"
+                  href="https://docs.google.com/document/d/1rZi9xU_hVfBiaTgdPBseuPRhPdYhjP4y4fhEpJrGEoQ/edit?usp=sharing"
                   target={"_blank"}
                   className="flex items-center bg-dark text-light font-cg p-2.5 px-6 text-lg font-semibold hover:bg-light hover:text-dark border border-solid border-transparent hover:border-dark"
-                  download={true}
                 >
                   Resume <LinkArrow className={"w-6 ml-1"} />
                 </a>
@@ -51,7 +46,7 @@ const Home = ({ childern, className = "" }) => {
                   href="mailto:ulyssekayisha@gmail.com"
                   target={"_blank"}
                   rel="noreferrer"
-                  className="ml-4 text-lg text-dark font-cg font-extrabold underline"
+                  className="ml-4 text-lg mt-7 text-dark font-cg font-extrabold underline"
                 >
                   <span>Contact me 😊</span>
                 </a>
@@ -61,7 +56,7 @@ const Home = ({ childern, className = "" }) => {
           <h1 className="font-cg text-black text-2xl">1</h1>
         </div>
           </div>
-        </div>
+        
       </section>
     </>
   );
