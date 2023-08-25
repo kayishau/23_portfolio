@@ -16,8 +16,8 @@ const Contact = () => {
           }}
         >
           <div className="flex flex-col w-full tablet:w-1/2 gap-4 mx-5 px-12 text-center mt-20 tablet:mt-0">
-            <h2 className="font-cg text-2xl lg:text-3xl xl:text-4xl font-extrabold tablet:mb-3">Get In touch :)</h2>
-            <p className="text-sm xl:text-lg font-cg text-center tablet:text-left tablet:mb-3 self-end">
+            <h2 className="font-cg text-2xl lg:text-3xl xl:text-4xl font-extrabold tablet:mb-3">Get in touch :)</h2>
+            <p className="text-xs tablet:text-sm xl:text-lg font-cg text-center tablet:text-left tablet:mb-3 self-end">
               If you have a project in mind, general questions, book/resource
               recomendations or want to connect about anything Dev, Web3 or
               design related, please reach out! Always down to meet new people,
