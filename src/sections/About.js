@@ -31,8 +31,8 @@ const About = () => {
           </p>
         
         </div>
-        <div className="self-end pb-16 -ml-8 ">
-          <h1 className="font-cg  text-black text-2xl">2</h1>
+        <div className="self-end md:pb-12 bg-blue-500 mr-5">
+          <h1 className="font-cg text-black text-sm tablet:text-lg md:text-xl lg:text-2xl">2</h1>
         </div>
       </section>
     </>
