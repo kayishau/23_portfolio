@@ -15,19 +15,17 @@ const Home = ({ childern, className = "" }) => {
         <div className={`${className} w-full min-h-full`}>
           {childern}
 
-          <div className="flex items-center w-full min-h-full">
-            <div className="w-1/2 flex items-center justify-center mr-8">
-              <div
-                style={{
-                  backgroundImage: "url(/img/flower.png)",
-                  height: "700px",
-                  width: "800px",
-                  backgroundSize: "cover",
-                  backgroundRepeat: "no-repeat",
-                }}
-                alt="watercolor flowers image"
-                className=""
-              ></div>
+          <div className="flex items-center w-full justify-center min-h-full border-4 border-red-600">
+            <div className="w-1/2 flex items-center lg:w-2/5 justify-center border border-indigo-500"
+              style={{
+                backgroundImage: "url(/img/flowerFixed.png)",
+                height: "100vh",
+                backgroundSize: "contain",
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "center"
+              }}
+              alt="watercolor flowers image"
+            >
             </div>
 
             <div className="w-1/2 flex flex-col items-center self-center -ml-20">
