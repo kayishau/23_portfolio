@@ -13,7 +13,7 @@ const Home = () => {
         className="flex items-center justify-center w-full min-h-screen border-b-1 border-slate-500"
       >
           <div className="flex flex-col lg:flex-row items-center w-full justify-center min-h-full">
-            <div className="flex mt-10 w-2/3 lg:w-2/5 h-[200px] tablet:h-[250px] md:h-[350px] lg:h-[600px] xl:h-[750px]"
+            <div className="flex mt-10 lg:mt-0 w-2/3 lg:w-1/2 h-[200px] tablet:h-[250px] md:h-[390px] lg:h-[490px] xl:h-[750px]"
               style={{
                 backgroundImage: "url(/img/flowerFixed.png)",
                 backgroundSize: "contain",
@@ -31,7 +31,7 @@ const Home = () => {
               />
               <AnimatedTextWord text="SOFTWARE ENGINEER | DESIGNER | ENVIROMENTALIST | DIVERSITY ADVOCATE" />
 
-              <p className="text-xs my-1 tablet:my-3 lg:my-5 xl:my-7 text-center lg:text-left font-cg font-medium tablet:text-base lg:text-lg xl:text-xl">
+              <p className="text-xs my-1 tablet:my-3 xl:my-7 text-center lg:text-left font-cg font-medium tablet:text-base lg:text-base xl:text-xl">
               I'm an upbeat and creative Software Engineer who's absolutely gassed with everything and anything related to design, the environment, and Web3! My brain is wired to think outside the box in the most creative ways possible. Taking abstract design and code concepts and transforming them into real-world solutions is not just a talent for me – it's a challenge that I am always excited to take on! 
               </p>
               <div className="flex items-center lg:self-start mt-2">
