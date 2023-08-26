@@ -6,6 +6,7 @@ import About from "./sections/About";
 import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
 import Contact from "./sections/Contact";
+import Navigation from "./components/Navbar";
 
 
 
@@ -23,7 +24,7 @@ const App = () => {
       //   backgroundRepeat: "no-repeat",
       // }} 
       >
-        <NavBar />
+        <Navigation />
         <Home />
         <About />
         <Skills />
