@@ -28,9 +28,9 @@ export default function Projects() {
         </div>
         <section className="justify-center flex flex-col md:my-5">
           <EmblaCarousel slides={SLIDES} options={OPTIONS} />
-          <div className="self-end md:pb-12 bg-blue-500 mr-5">
+          <div className="self-end mr-5">
             <h1 className="font-cg text-black text-sm tablet:text-lg md:text-xl lg:text-2xl">
-              1
+              4
             </h1>
           </div>
         </section>

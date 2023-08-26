@@ -13,7 +13,7 @@ const Home = () => {
         className="flex items-center justify-center w-full min-h-screen border-b-1 border-slate-500"
       >
           <div className="flex flex-col lg:flex-row items-center w-full justify-center min-h-full">
-            <div className="flex mt-10 w-2/3 lg:w-2/5 h-[200px] tablet:h-[250px] md:h-[500px] lg:h-[600px] xl:h-[750px] border border-purple-500"
+            <div className="flex mt-10 w-2/3 lg:w-2/5 h-[200px] tablet:h-[250px] md:h-[350px] lg:h-[600px] xl:h-[750px]"
               style={{
                 backgroundImage: "url(/img/flowerFixed.png)",
                 backgroundSize: "contain",
@@ -24,7 +24,7 @@ const Home = () => {
             >
             </div>
 
-            <div className="w-full lg:w-1/2 px-6 lg:px-2 flex flex-col items-center justify-center border border-red-600">
+            <div className="w-full lg:w-1/2 px-6 lg:px-2 flex flex-col items-center justify-center">
               <AnimatedText
                 text="Kayisha Ulysse"
                 className="tablet:my-1 md:my-4 lg:my-5 font-cg font-bold tracking-wider"
@@ -52,7 +52,7 @@ const Home = () => {
                 </a>
               </div>
             </div>
-            <div className="self-end md:pb-12 bg-blue-500 mr-5">
+            <div className="self-end md:pb-12 mr-5">
           <h1 className="font-cg text-black text-sm tablet:text-lg md:text-xl lg:text-2xl">1</h1>
         </div>
           </div>

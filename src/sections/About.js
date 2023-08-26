@@ -9,7 +9,7 @@ const About = () => {
         id="aboutSection"
         className="flex flex-col lg:flex-row items-center justify-center md:min-h-screen w-full border-t border-slate-500" 
       >
-        <div className="w-full lg:w-1/2 md:my-5 items-center justify-center">
+        <div className="w-full lg:w-1/2 lg:my-5 items-center justify-center">
           <AboutPictures />
         </div>
         <div className="w-full px-4 lg:px-0 lg:mr-10 lg:w-1/2 flex flex-col justify-center items-center">
@@ -31,7 +31,7 @@ const About = () => {
           </p>
         
         </div>
-        <div className="self-end md:pb-12 bg-blue-500 mr-5">
+        <div className="self-end md:pb-12 mr-5">
           <h1 className="font-cg text-black text-sm tablet:text-lg md:text-xl lg:text-2xl">2</h1>
         </div>
       </section>

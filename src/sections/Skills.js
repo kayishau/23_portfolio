@@ -19,7 +19,7 @@ import { motion } from "framer-motion";
 
 export default function Skills() {
   return (
-    <>
+    
       <section
         id="skillsSection"
         className="flex flex-col justify-center mx-auto items-center min-h-screen w-full border-t border-slate-500"
@@ -95,7 +95,7 @@ export default function Skills() {
             </div>
 
             <div
-              className="flex flex-wrap w-2/3 tablet:w-1/3 justify-center items-center h-[150px] lg:h-[400px]"
+              className="flex flex-wrap w-2/3 tablet:w-1/3 justify-center items-center h-[150px] md:h-[300px] lg:h-[400px]"
               style={{
                 backgroundImage: "url(/img/languages.png)",
                 backgroundSize: "contain",
@@ -126,7 +126,7 @@ export default function Skills() {
             </div>
 
             <div
-              className="flex flex-wrap w-2/3 tablet:w-1/3 justify-center items-center h-[150px] lg:h-[400px]"
+              className="flex flex-wrap w-2/3 tablet:w-1/3 justify-center items-center h-[150px] md:h-[300px] lg:h-[400px]"
               style={{
                 backgroundImage: "url(/img/back.png)",
                 backgroundSize: "contain",
@@ -194,11 +194,11 @@ export default function Skills() {
             </div>
           </div>
         </div>
-        <div className="self-end mr-5 md:pb-12">
-        <h1 className="font-cg text-black text-sm tablet:text-lg md:text-xl lg:text-2xl">3</h1>
+        <div className="flex justify-end items-end h-[200px] w-full">
+        <h1 className="font-cg pr-5 text-black text-sm tablet:text-lg md:text-xl lg:text-2xl">3</h1>
         </div>
       </section>
-    </>
+  
   );
 }
 

@@ -15,7 +15,7 @@ const Contact = () => {
             width: "800px",
           }}
         >
-          <div className="flex flex-col w-full tablet:w-1/2 gap-4 mx-5 px-12 text-center mt-20 tablet:mt-0">
+          <div className="flex flex-col w-full tablet:w-1/2 gap-4 mx-5 md:mx-0 px-12 text-center mt-20 tablet:mt-0">
             <h2 className="font-cg text-2xl lg:text-3xl xl:text-4xl font-extrabold tablet:mb-3">Get in touch :)</h2>
             <p className="text-xs tablet:text-sm xl:text-lg font-cg text-center tablet:text-left tablet:mb-3 self-end">
               If you have a project in mind, general questions, book/resource
@@ -23,7 +23,7 @@ const Contact = () => {
               design related, please reach out! Always down to meet new people,
               learn something new and/or colloborate 🧡.
             </p>
-            <div className="flex tablet:justify-start tablet:ml-4">
+            <div className="tablet:self-start tablet:ml-4 md:-ml-1">
             <a
               href="mailto:ulyssekayisha@gmail.com"
               target={"_blank"}
@@ -41,7 +41,7 @@ const Contact = () => {
               <span className="delay-150 hover:bg-primary hover:text-white p-1">ulyssekayisha@gmail.com</span>
             </a>
             </div>
-            <div className="flex justify-start ml-4">
+            <div className="tablet:self-start tablet:ml-4 md:-ml-1">
             <a
               href="https://calendly.com/ulyssekayisha"
               target={"_blank"}
@@ -61,7 +61,7 @@ const Contact = () => {
             </div>
             
           </div>
-          <div className="self-end md:pb-12 -ml-8 mr-5">
+          <div className="self-end  mr-5">
           <h1 className="font-cg text-black text-sm tablet:text-lg md:text-xl lg:text-2xl">5</h1>
         </div>
         </div>
