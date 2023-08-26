@@ -1,7 +1,7 @@
-import { LinkArrow } from "../components/Icons";
 import AnimatedText from "../components/AnimatedText";
 import TransitionEffect from "../components/TransitionEffect";
 import AnimatedTextWord from "../components/AnimatedTextWord";
+import { BsBoxArrowUpRight } from "react-icons/bs"
 import "../index.css";
 
 const Home = () => {
@@ -38,9 +38,10 @@ const Home = () => {
                 <a
                   href="https://docs.google.com/document/d/1rZi9xU_hVfBiaTgdPBseuPRhPdYhjP4y4fhEpJrGEoQ/edit?usp=sharing"
                   target={"_blank"}
+                  rel="noreferrer"
                   className="flex items-center bg-dark text-light font-cg p-1.5 px-3 tablet:p-2.5 tablet:px-6 text-base tablet:text-lg font-semibold hover:bg-light hover:text-dark border border-solid border-transparent hover:border-dark"
                 >
-                  Resume <LinkArrow className="w-5 h-5 lg:w-8 lg:h-8" />
+                  Resume <BsBoxArrowUpRight className="w-5 h-5 ml-2" />
                 </a>
                 <a
                   href="mailto:ulyssekayisha@gmail.com"
