@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import Header from './Header';
+import NavLinks from './NavBar/NavLinks';
 import { FaTwitter, FaLinkedin } from "react-icons/fa";
 import { PiGithubLogoFill } from "react-icons/pi";
 
@@ -12,7 +12,7 @@ const NavBar = () => {
         <>
         <header className='sticky top-0 w-full -mb-10  px-32 flex justify-between items-center'> 
             <nav className='text-primary font-cg text-xl font-extrabold'>
-                <Header />
+               <NavLinks />
             </nav>
             <nav className="text-primaryDark flex items-center justify-center flex-wrap pt-5">
                 <motion.a href="https://twitter.com/kaiusse" target={"_blank"} rel="noreferrer" 
