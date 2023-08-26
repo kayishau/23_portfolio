@@ -34,7 +34,7 @@ export default function Skills() {
           </p>
           <div className="flex flex-col tablet:flex-row items-center justify-center">
             <div
-              className="flex flex-wrap w-2/3 tablet:w-1/3 justify-center items-center h-[150px] md:h-[300px] xl:h-[400px]" 
+              className="flex flex-wrap w-2/3 tablet:w-1/3 justify-center items-center h-[150px] md:h-[300px] xl:h-[350px]" 
               style={{
                 backgroundImage: "url(/img/front.png)",
                 backgroundSize: "contain",
@@ -42,7 +42,7 @@ export default function Skills() {
                 backgroundPosition: "center",
               }}
             >
-              <div className="flex flex-row flex-wrap gap-3 lg:gap-5 justify-center w-2/3 md:w-4/5 items-center lg:mt-5">
+              <div className="flex flex-row flex-wrap gap-3 lg:gap-5 justify-center w-2/3 md:w-4/5 items-center lg:mt-5 xl:w-[350px]">
                 <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.9 }}>
                   <FaReact className="w-6 h-6 lg:w-11 lg:h-11" 
                   style={{
@@ -95,7 +95,7 @@ export default function Skills() {
             </div>
 
             <div
-              className="flex flex-wrap w-2/3 tablet:w-1/3 justify-center items-center h-[150px] md:h-[300px] xl:h-[400px]"
+              className="flex flex-wrap w-2/3 tablet:w-1/3 justify-center items-center h-[150px] md:h-[300px] xl:h-[350px]"
               style={{
                 backgroundImage: "url(/img/languages.png)",
                 backgroundSize: "contain",
@@ -103,7 +103,7 @@ export default function Skills() {
                 backgroundPosition: "center",
               }}
             >
-              <div className="flex flex-row flex-wrap gap-3 lg:gap-5 justify-center w-2/3 md:w-4/5  items-center">
+              <div className="flex flex-row flex-wrap gap-3 lg:gap-5 justify-center w-2/3 md:w-4/5  items-center xl:w-[350px]">
                 <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.9 }}>
                   <FaRust className="w-6 h-6 lg:w-11 lg:h-11" 
                   style={{
@@ -126,7 +126,7 @@ export default function Skills() {
             </div>
 
             <div
-              className="flex flex-wrap w-2/3 tablet:w-1/3 justify-center items-center h-[150px] md:h-[300px] xl:h-[400px]"
+              className="flex flex-wrap w-2/3 tablet:w-1/3 justify-center items-center h-[150px] md:h-[300px] xl:h-[350px]"
               style={{
                 backgroundImage: "url(/img/back.png)",
                 backgroundSize: "contain",
@@ -134,7 +134,7 @@ export default function Skills() {
                 backgroundPosition: "center",
               }}
             >
-              <div className="flex flex-row flex-wrap gap-3 mt-3 md:mt-0 lg:gap-5 justify-center w-2/3 md:w-4/5 items-center lg:mt-5">
+              <div className="flex flex-row flex-wrap gap-3 mt-3 md:mt-0 lg:gap-5 justify-center w-2/3 md:w-4/5 items-center lg:mt-5 xl:w-[350px]">
                 <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.9 }}>
                   <FaNodeJs className="w-6 h-6 lg:w-11 lg:h-11" 
                   style={{
@@ -194,7 +194,7 @@ export default function Skills() {
             </div>
           </div>
         </div>
-        <div className="flex justify-end items-end h-[200px] w-full">
+        <div className="flex justify-end items-end  xl:mb-11 xl:opacity-0 h-[200px] w-full">
         <h1 className="font-cg pr-5 text-black text-sm tablet:text-lg md:text-xl lg:text-2xl">3</h1>
         </div>
       </section>
