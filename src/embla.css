@@ -33,13 +33,13 @@
       --slide-spacing: 1rem;
       --slide-size: 60%;
       --slide-height: 15rem;
-      padding: 1rem;
+      padding: 1rem
     }
   }
 
-  /* .embla__viewport {
+  .embla__viewport {
     overflow: hidden;
-  } */
+  }  
 
   .embla__container {
     backface-visibility: hidden;
