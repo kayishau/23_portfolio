@@ -13,7 +13,7 @@ const Header = () => {
     return (
       <>
        
-        <ul key={content} className="inline-block px-5 mt-1 hover:bg-primaryDark hover:text-white hover:font-bold items-center justify-center">
+        <ul key={content} className="inline-block px-5 mt-1 delay-150 hover:bg-primaryDark hover:text-white hover:font-bold items-center justify-center">
           <li>
             <button onClick={handleClickNav} id="myImage"
             >{content}
