@@ -13,7 +13,7 @@ const Home = () => {
         className="flex items-center justify-center w-full min-h-screen border-b-1 border-slate-500"
       >
           <div className="flex flex-col lg:flex-row items-center w-full justify-center min-h-full">
-            <div className="flex mt-10 lg:mt-0 w-2/3 lg:w-1/2 h-[200px] tablet:h-[250px] md:h-[390px] lg:h-[490px] xl:h-[750px]"
+            <div className="flex mt-10 lg:mt-0 w-2/3 lg:w-1/2 h-[200px] tablet:h-[250px] md:h-[390px] lg:h-[490px] xl:h-[590px]"
               style={{
                 backgroundImage: "url(/img/flowerFixed.png)",
                 backgroundSize: "contain",
@@ -52,7 +52,7 @@ const Home = () => {
                 </a>
               </div>
             </div>
-            <div className="self-end md:pb-12 mr-5">
+            <div className="self-end md:pb-12 mr-5 xl:opacity-0">
           <h1 className="font-cg text-black text-sm tablet:text-lg md:text-xl lg:text-2xl">1</h1>
         </div>
           </div>
