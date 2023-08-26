@@ -7,7 +7,8 @@ import { PiGithubLogoFill } from "react-icons/pi";
 const Navigation = () => {
   return (
     <>
-    <header className='sticky top-0 w-full -mb-10  px-32 flex justify-between items-center'> 
+    <nav className='tablet:max-2xl:visible hidden tablet:flex'>
+    <header className='sticky top-0 w-full -mb-10  px-32 flex justify-between items-center bg bg-cyan-600'> 
             <nav className='text-primary font-cg text-xl font-extrabold'>
                <NavLinks />
             </nav>
@@ -32,6 +33,8 @@ const Navigation = () => {
             
         </header>
     
+    </nav>
+  
     </>
   )
 };

@@ -1,12 +1,11 @@
 import "./App.css";
-import NavBar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./sections/Home";
 import About from "./sections/About";
 import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
 import Contact from "./sections/Contact";
-import Navigation from "./components/Navbar";
+import NavBar from "./components/NavBar/NavBar";
 
 
 
@@ -24,7 +23,7 @@ const App = () => {
       //   backgroundRepeat: "no-repeat",
       // }} 
       >
-        <Navigation />
+       <NavBar />
         <Home />
         <About />
         <Skills />
