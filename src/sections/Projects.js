@@ -15,15 +15,15 @@ export default function Projects() {
         id="projectsSection"
         className="w-full min-h-screen flex flex-col justify-center border-t border-slate-500"
       >
-        <div className="flex justify-center items-center gap-5 mb-2 tablet:mb-4">
+        <div className="flex justify-center items-center gap-5 mb-2 tablet:mb-4 lg:mb-0 lg:mt-8">
          <div>
-         <RiArrowLeftDoubleFill className="w-5 h-5 "/>
+         <RiArrowLeftDoubleFill className="w-5 h-5 lg:w-8 lg:h-8"/>
           </div> 
           <div>
           <h1 className="font-cg text-2xl lg:text-3xl xl:text-4xl text-center font-extrabold">Swipe :)</h1>
           </div>
         <div>
-         <RiArrowRightDoubleLine className="w-5 h-5 "/>
+         <RiArrowRightDoubleLine className="w-5 h-5 lg:w-8 lg:h-8"/>
           </div> 
         </div>
         <section className="justify-center flex flex-col md:my-5">
