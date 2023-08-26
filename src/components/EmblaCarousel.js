@@ -64,17 +64,17 @@ const EmblaCarousel = (props) => {
               <div className="embla__slide__number">
                 <span>{index + 1}</span>
               </div>
-              <div className="flex flex-col items-center gap-2 opacity-75 hover:opacity-100 border-2 border-projectBorder hover:border-primary">
+              <div className="flex flex-col items-center gap-1 tablet:gap-2 opacity-75 hover:opacity-100 border-2 border-projectBorder hover:border-primary">
                 <img className="embla__slide__img" src={index.img} alt="project display" />
-                <div className="flex flex-col items-center gap-2 opacity-75 border bg-gradient-to-r from-white to-slate-300 p-2">
-                <h1 className="font-cg text-lg lg:text-3xl xl:text-4xl text-center font-extrabold">{index.title}</h1>
+                <div className="flex flex-col items-center gap-1 tablet:gap-2 opacity-75 border bg-gradient-to-r from-white to-slate-300 p-1 tablet:p-2">
+                <h1 className="font-cg text-base tablet:text-lg lg:text-3xl xl:text-4xl text-center font-extrabold">{index.title}</h1>
                 <h2 className="text-sm">{index.type}</h2>
                 <p className="font-cg text-xs text-center md:px-10">{index.summary}</p>
                 <div className="flex w-full justify-around items-center">
-                <a className="hover:underline text-sm" href={index.link}>
+                <a className="hover:underline text-xs" href={index.link}>
                  Link
                 </a>
-                <a className="hover:underline text-sm" href={index.demo} target={"_blank"} rel="noreferrer" >Demo</a>
+                <a className="hover:underline text-xs" href={index.demo} target={"_blank"} rel="noreferrer" >Demo</a>
                 <a href={index.github}>
                   <PiGithubLogoFill className="w-5 h-5 lg:w-8 lg:h-8"/>
                 </a>
