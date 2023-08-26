@@ -40,7 +40,7 @@ const Home = () => {
                   target={"_blank"}
                   className="flex items-center bg-dark text-light font-cg p-1.5 px-3 tablet:p-2.5 tablet:px-6 text-base tablet:text-lg font-semibold hover:bg-light hover:text-dark border border-solid border-transparent hover:border-dark"
                 >
-                  Resume <LinkArrow className={"w-6 ml-1"} />
+                  Resume <LinkArrow className="w-5 h-5 lg:w-8 lg:h-8" />
                 </a>
                 <a
                   href="mailto:ulyssekayisha@gmail.com"
