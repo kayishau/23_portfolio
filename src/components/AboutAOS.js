@@ -22,7 +22,7 @@ export default function AboutPictures() {
                 backgroundSize: "contain",
                 backgroundRepeat: "no-repeat",
               }}
-              className="w-[110px] h-[130px] -mr-3  md:w-[250px] md:h-[300px] lg:w-[180px] lg:h-[200px] lg:ml-6 xl:h-[280px] xl:w-[210px] xl:bg-cover"
+              className="w-[110px] h-[130px] -mr-3 md:w-[250px] md:h-[300px] lg:w-[200px] lg:h-[220px] lg:ml-6 xl:h-[280px] xl:w-[210px] xl:bg-cover"
               alt="Kayisha/designer"
             ></div>
             {/* <div 
@@ -45,7 +45,7 @@ export default function AboutPictures() {
                 backgroundSize: "contain",
                 backgroundRepeat: "no-repeat",
               }}
-              className="w-[110px] h-[130px] md:w-[250px] md:h-[300px] lg:w-[180px] lg:h-[230px] xl:h-[280px] xl:w-[230px] xl:bg-cover"
+              className="w-[110px] h-[130px] md:w-[250px] md:h-[300px] lg:w-[200px] lg:h-[250px] xl:h-[280px] xl:w-[230px] xl:bg-cover"
               alt="Kayisha/nature"
             ></div>
           </div>
@@ -63,7 +63,7 @@ export default function AboutPictures() {
               backgroundSize: "contain",
               backgroundRepeat: "no-repeat",
             }}
-            className="w-[120px] h-[140px] md:w-[270px] md:h-[320px] lg:w-[250px] lg:h-[300px] xl:h-[450px] xl:w-[380px]"
+            className="w-[120px] h-[140px] md:w-[270px] md:h-[320px] lg:w-[270px] lg:h-[320px] xl:h-[450px] xl:w-[380px]"
             alt="Kayisha/main"
           ></div>
     </div>
