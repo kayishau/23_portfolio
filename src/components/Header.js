@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 
 const Header = () => {
   const navLinks = ["Home", "About", "Skills", "Projects", "Contact"];
-  const [isImageVisible, setImageVisible] = useState(true);
 
   const renderNavLinks = (content) => {
     const scrollToId = `${content.toLowerCase()}Section`;
@@ -11,51 +10,12 @@ const Header = () => {
       document.getElementById(scrollToId).scrollIntoView({ behavior: "smooth" });
     };
 
-    const hideImage = () => {
-        console.log(isImageVisible);
-      setImageVisible(false);
-    //   <img id="myImage" 
-    //     style={{
-    //     backgroundImage: "none",
-    //     height: "80px",
-    //     width: "90px",
-    //     backgroundSize: "cover",
-    //     backgroundRepeat: "no-repeat",
-    // }}></img>
-      
-    };
-
-    const showImage = () => {
-        console.log(isImageVisible);
-      setImageVisible(true);
-//       <img id="myImage" 
-//       style={{
-//       backgroundImage: "url(/img/nav-back.png)",
-//       height: "80px",
-//       width: "90px",
-//       backgroundSize: "cover",
-//       backgroundRepeat: "no-repeat",
-//   }}></img>
-    };
-
     return (
       <>
-      
-        <ul key={content} className="inline-block px-5 pt-5">
+       
+        <ul key={content} className="inline-block px-5 mt-1 hover:bg-primaryDark hover:text-white hover:font-bold items-center justify-center">
           <li>
-         
             <button onClick={handleClickNav} id="myImage"
-            
-            // style={{
-            //     backgroundImage: "url(/img/nav-back.png)",
-            //     height: "80px",
-            //     width: "90px",
-            //     backgroundSize: "cover",
-            //     backgroundRepeat: "no-repeat",
-            // }}
-            //  {isImageVisible ? onMouseEnter={showImage} : onMouseLeave={hideImage}}
-            onMouseEnter={showImage}
-            onMouseLeave={hideImage}
             >{content}
             </button>
           </li>
