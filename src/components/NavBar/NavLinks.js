@@ -18,17 +18,17 @@ const NavLinks = (props) => {
 
     return (
       <>
-        <ul key={content} className="inline-block px-2 tablet:px-5 tablet:mt-1 tablet:delay-150 tablet:hover:bg-primaryDark tablet:hover:text-white tablet:hover:font-bold items-center justify-center">
-          <motion.li 
-          initial={animateFrom}
-          animate={animateTo}
-          className="self-center"
+        <ul key={content} className="inline-block px-2 tablet:px-5 tablet:mt-1 tablet:delay-150 tablet:hover:bg-primaryDark tablet:hover:text-white tablet:hover:font-bold items-center justify-center cursor-auto">
+          <li 
+          // initial={animateFrom}
+          // animate={animateTo}
+          className="self-center hover:text-white transition duration-150 ease-in-out "
           onClick={() => props.isMobile && props.closeMobileMenu( )}
           >
             <button onClick={handleClickNav}
             >{content}
             </button>
-          </motion.li>
+          </li>
         </ul>
       </>
     );

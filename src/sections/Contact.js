@@ -38,7 +38,7 @@ const Contact = () => {
               rel="noreferrer"
               className="text-sm ml-4 md:text-lg text-dark font-cg font-extrabold"
             >
-              <span className="delay-150 hover:bg-primary hover:text-white p-1">ulyssekayisha@gmail.com</span>
+              <span className="delay-150 hover:bg-primary hover:text-white p-1 duration-150 ease-in-out">ulyssekayisha@gmail.com</span>
             </a>
             </div>
             <div className="tablet:self-start tablet:ml-4 md:-ml-1">
@@ -56,7 +56,7 @@ const Contact = () => {
               rel="noreferrer"
               className="text-sm ml-4 md:text-lg text-dark font-cg font-extrabold"
             >
-              <span className="delay-150 hover:bg-primary hover:text-white p-1">Kayisha's calendly</span>
+              <span className="delay-150 hover:bg-primary hover:text-white p-1 duration-150 ease-in-out">Kayisha's calendly</span>
             </a>
             </div>
             
