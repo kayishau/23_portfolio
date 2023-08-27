@@ -13,7 +13,7 @@ export const projectsArray = [
   },
   {
     title: "Web3 Wiki",
-    img: "/img/projects/image-coming-soon.jpeg",
+    img: "/img/projects/comingsoon.png",
     summary:
       "A mini Wiki app on Web3 topics. Created with NextJS, Tailwind CSS, Framer-Motion, MongoDB Atlas and NodeJS",
     // link: "https://github.com/kayishau/web3-wiki",
