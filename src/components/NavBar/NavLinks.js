@@ -18,11 +18,11 @@ const NavLinks = (props) => {
 
     return (
       <>
-        <ul key={content} className="inline-block px-2 tablet:px-5 tablet:mt-1 tablet:delay-150 tablet:hover:bg-primaryDark tablet:hover:text-white tablet:hover:font-bold items-center justify-center cursor-auto">
+        <ul key={content} className="inline-block px-2 tablet:px-4 tablet:mt-1 tablet:delay-150 tablet:hover:bg-primaryDark tablet:hover:text-white tablet:hover:font-bold items-center justify-center cursor-auto tablet:duration-150 ease-in-out lg:text-2xl lg:mt-4">
           <li 
           // initial={animateFrom}
           // animate={animateTo}
-          className="self-center hover:text-white transition duration-150 ease-in-out "
+          className="self-center hover:text-white duration-150 ease-in-out"
           onClick={() => props.isMobile && props.closeMobileMenu( )}
           >
             <button onClick={handleClickNav}
@@ -39,7 +39,7 @@ const NavLinks = (props) => {
       <div>
         <nav>
           {navLinks.map((nav) => renderNavLinks(nav))}
-          <div className="text-primaryDark flex items-center justify-center gap-3 my-2">
+          <div className="text-primaryDark flex items-center justify-center gap-3 my-2 tablet:hidden">
                 <motion.a href="https://twitter.com/kaiusse" target={"_blank"} rel="noreferrer" 
                 whileHover={{y:-2}}
                 whileTap={{scale:0.9}}>
