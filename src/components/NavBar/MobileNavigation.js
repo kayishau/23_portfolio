@@ -1,38 +1,29 @@
 import React from "react";
-import { motion } from 'framer-motion';
-import { FaTwitter, FaLinkedin } from "react-icons/fa";
-import { PiGithubLogoFill } from "react-icons/pi";
+import { useState } from "react";
 import NavLinks from "./NavLinks";
+// import { TbNavigation } from "react-icons/tb"
+import { GiHamburgerMenu } from "react-icons/gi"
+import { AiOutlineCloseSquare } from "react-icons/ai"
 
 const MobileNavigation = () => {
+
+    const [openBurger, setOpenBurger] = useState(false)
+
+    const hamburgerIcon = <GiHamburgerMenu className="w-6 h-6 absolute right-5 top-5 cursor-pointer"
+    onClick={() => setOpenBurger(!openBurger)}/>
+
+    const closeIcon = <AiOutlineCloseSquare className="w-8 h-8 absolute right-5 top-5 cursor-pointer"
+    onClick={() => setOpenBurger(!openBurger)}/>
+
   return (
     <>
-    
-    <nav className="tablet:hidden">
-    <header className='sticky top-0 w-full -mb-10  px-32 flex justify-between items-center bg bg-lime-500'> 
-            <nav className='text-primary font-cg text-xl font-extrabold'>
-               <NavLinks />
-            </nav>
-            <nav className="text-primaryDark flex items-center justify-center flex-wrap pt-5">
-                <motion.a href="https://twitter.com/kaiusse" target={"_blank"} rel="noreferrer" 
-                whileHover={{y:-2}}
-                whileTap={{scale:0.9}}
-                className="w-6 mx-3">
-                  <FaTwitter className='w-8 h-8' />
-                </motion.a>
-                <motion.a href="https://github.com/kayishau" target={"_blank"} rel="noreferrer"  className="w-6 mx-5"
-                 whileHover={{y:-2}}
-                 whileTap={{scale:0.9}}>
-                    <PiGithubLogoFill className='w-8 h-8' />
-                </motion.a>
-                <motion.a href="https://www.linkedin.com/in/kayisha-ulysse/" target={"_blank"}  rel="noreferrer" className="w-6 ml-3"
-                 whileHover={{y:-2}}
-                 whileTap={{scale:0.9}}>
-                   <FaLinkedin className='w-8 h-8' />
-                </motion.a>      
-            </nav>
-            
-        </header>
+    <nav className="tablet:hidden fixed top-0 w-full flex justify-between items-center bg bg-lime-500">
+            <nav className='text-primary font-cg text-xl font-extrabold border border-red-600 flex items-center justify-center'>
+
+                {openBurger ? closeIcon : hamburgerIcon}
+                {openBurger && <NavLinks />}
+
+            </nav>   
     </nav>
    
     
