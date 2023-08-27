@@ -32,6 +32,8 @@ export default function Skills() {
             “Improve by 1% a day, and in just 70 days, you’re twice as good.”🌱 –
             <span className="text-primary/75 ml-1">Alan Weiss</span>
           </p>
+
+
           <div className="flex flex-col tablet:flex-row items-center justify-center">
             <div
               className="flex flex-wrap w-2/3 tablet:w-1/3 justify-center items-center h-[150px] md:h-[300px] xl:h-[350px]" 
@@ -47,7 +49,10 @@ export default function Skills() {
                   <FaReact className="w-6 h-6 lg:w-11 lg:h-11" 
                   style={{
                     color: "#684C42"
-                  }}/>
+                  }}
+                  // data-te-toggle="tooltip"
+                  // title="ReactJS"
+                  />
                 </motion.div>
                 <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.9 }}>
                   <SiNextdotjs className="w-6 h-6 lg:w-11 lg:h-11"  
@@ -201,4 +206,3 @@ export default function Skills() {
   
   );
 }
-
