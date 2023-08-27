@@ -9,24 +9,33 @@ const MobileNavigation = () => {
 
     const [openBurger, setOpenBurger] = useState(false)
 
-    const hamburgerIcon = <GiHamburgerMenu className="w-6 h-6 absolute right-5 top-5 cursor-pointer"
+    const hamburgerIcon = <GiHamburgerMenu className="w-6 h-6 absolute left-4 top-3 cursor-pointer"
     onClick={() => setOpenBurger(!openBurger)}/>
 
-    const closeIcon = <AiOutlineCloseSquare className="w-8 h-8 absolute right-5 top-5 cursor-pointer"
+    const closeIcon = <AiOutlineCloseSquare className="w-7 h-7 absolute left-4 top-3 cursor-pointer"
     onClick={() => setOpenBurger(!openBurger)}/>
+
+    const closeMobileMenu = () => setOpenBurger(false)
 
   return (
     <>
-    <nav className="tablet:hidden fixed top-0 w-full flex justify-between items-center bg bg-lime-500">
-            <nav className='text-primary font-cg text-xl font-extrabold border border-red-600 flex items-center justify-center'>
-
+    <div
+    //  className="w-full h-[50px] bg-primary/50 fixed"
+     >
+    <nav className="tablet:hidden fixed w-full flex top-6 justify-center"
+      style={{
+        backgroundImage: "url(/img/navbar5.png)",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+      }}
+    >
+            <div className='font-cg text-xl font-extrabold '>
                 {openBurger ? closeIcon : hamburgerIcon}
-                {openBurger && <NavLinks />}
-
-            </nav>   
+                {openBurger && <NavLinks isMobile={true} closeMobileMenu={closeMobileMenu} />}
+            </div>   
     </nav>
-   
-    
+    </div>
     </>
   )
 };

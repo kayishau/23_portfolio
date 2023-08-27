@@ -3,8 +3,11 @@ import { motion } from 'framer-motion';
 import { FaTwitter, FaLinkedin } from "react-icons/fa";
 import { PiGithubLogoFill } from "react-icons/pi";
 
-const NavLinks = () => {
+const NavLinks = (props) => {
   const navLinks = ["Home", "About", "Skills", "Projects", "Contact"];
+
+  const animateFrom = {opacity: 1, x:0}
+  const animateTo = {opacity: 1, x:0}
 
   const renderNavLinks = (content) => {
     const scrollToId = `${content.toLowerCase()}Section`;
@@ -15,12 +18,17 @@ const NavLinks = () => {
 
     return (
       <>
-        <ul key={content} className="inline-block px-5 mt-1 delay-150 hover:bg-primaryDark hover:text-white hover:font-bold items-center justify-center">
-          <li>
-            <button onClick={handleClickNav} id="myImage"
+        <ul key={content} className="inline-block px-2 tablet:px-5 tablet:mt-1 tablet:delay-150 tablet:hover:bg-primaryDark tablet:hover:text-white tablet:hover:font-bold items-center justify-center">
+          <motion.li 
+          initial={animateFrom}
+          animate={animateTo}
+          className="self-center"
+          onClick={() => props.isMobile && props.closeMobileMenu( )}
+          >
+            <button onClick={handleClickNav}
             >{content}
             </button>
-          </li>
+          </motion.li>
         </ul>
       </>
     );
@@ -29,9 +37,9 @@ const NavLinks = () => {
   return (
     <header>
       <div>
-        <nav className="flex items-center justify-center">
+        <nav>
           {navLinks.map((nav) => renderNavLinks(nav))}
-          <div className="text-primaryDark flex items-center justify-center flex-wrap">
+          <div className="text-primaryDark flex items-center justify-center gap-3 my-2">
                 <motion.a href="https://twitter.com/kaiusse" target={"_blank"} rel="noreferrer" 
                 whileHover={{y:-2}}
                 whileTap={{scale:0.9}}>
