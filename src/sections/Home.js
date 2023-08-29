@@ -38,7 +38,6 @@ const Home = () => {
                 <a
                   href="/UlysseKayisha_Resume_23.pdf"
                   download={true}
-                  target={"_blank"}
                   rel="noreferrer"
                   className="flex items-center bg-dark text-light font-cg p-1.5 px-3 tablet:p-2.5 tablet:px-6 text-base tablet:text-lg font-semibold hover:bg-light hover:text-primary border border-solid border-transparent hover:border-dark delay-150"
                 >
