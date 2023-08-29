@@ -199,9 +199,9 @@ export default function Skills() {
             </div>
           </div>
         </div>
-        <div className="flex justify-end items-end  xl:mb-11 xl:opacity-0 h-[200px] w-full">
+        {/* <div className="flex justify-end items-end  xl:mb-11 xl:opacity-0 w-full">
         <h1 className="font-cg pr-5 text-black text-sm tablet:text-lg md:text-xl lg:text-2xl">3</h1>
-        </div>
+        </div> */}
       </section>
   
   );
