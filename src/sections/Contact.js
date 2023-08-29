@@ -61,9 +61,9 @@ const Contact = () => {
             </div>
             
           </div>
-          <div className="self-end xl:opacity-0 mr-5">
+          {/* <div className="self-end xl:opacity-0 mr-5">
           <h1 className="font-cg text-black text-sm tablet:text-lg md:text-xl lg:text-2xl">5</h1>
-        </div>
+        </div> */}
         </div>
        
       </section>
