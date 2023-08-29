@@ -38,6 +38,8 @@ const Home = () => {
                 <a
                   href="https://drive.google.com/file/d/19AakJg4kJSXgR-UdL7G3PxcHhSYoPT84/view?usp=sharing"
                   // download="UlysseKayisha_Resume_23.pdf"
+                  target={"_blank"}
+                  rel="noreferrer"
                   className="flex items-center bg-dark text-light font-cg p-1.5 px-3 tablet:p-2.5 tablet:px-6 text-base tablet:text-lg font-semibold hover:bg-light hover:text-primary border border-solid border-transparent hover:border-dark delay-150"
                 >Resume<BsBoxArrowUpRight className="w-5 h-5 ml-2" />
                 </a>
