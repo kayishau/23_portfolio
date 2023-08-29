@@ -22,7 +22,7 @@ const MobileNavigation = () => {
     <div
     //  className="w-full h-[50px] bg-primary/50 fixed"
      >
-    <nav className="tablet:hidden fixed w-full justify-center flex duration-150 top-5 ease-in-out"
+    <nav className="tablet:hidden fixed w-full justify-center flex duration-150 top-6 ease-in-out"
       style={{
         backgroundImage: "url(/img/navbar5.png)",
         backgroundSize: "cover",

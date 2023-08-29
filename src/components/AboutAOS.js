@@ -9,7 +9,7 @@ export default function AboutPictures() {
       }, [])
   return (
     <>
-     <div className="flex items-center justify-center lg:-mr-5 mt-16 mb-3 lg:my-0">
+     <div className="flex items-center justify-center lg:-mr-5 mt-16 mb-3 lg:my-0 pb-5">
           <div id="picture-stack" className="flex lg:flex-col">
             {/* <Fadein /> */}
             <div
