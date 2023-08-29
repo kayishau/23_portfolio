@@ -31,9 +31,9 @@ const About = () => {
           </p>
         
         </div>
-        <div className="self-end md:pb-12 mr-5 xl:opacity-0">
+        {/* <div className="self-end md:pb-12 mr-5 xl:opacity-0">
           <h1 className="font-cg text-black text-sm tablet:text-lg md:text-xl lg:text-2xl">2</h1>
-        </div>
+        </div> */}
       </section>
     </>
   );
