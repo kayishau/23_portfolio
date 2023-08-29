@@ -32,11 +32,12 @@ const Home = () => {
               <AnimatedTextWord text="SOFTWARE ENGINEER | DESIGNER | ENVIROMENTALIST | DIVERSITY ADVOCATE" />
 
               <p className="text-xs my-1 tablet:my-3 xl:my-7 text-center lg:text-left font-cg font-medium tablet:text-base lg:text-base xl:text-xl">
-              I'm an upbeat and creative Software Engineer who's absolutely gassed with everything and anything related to design, the environment, and Web3! My brain is wired to think outside the box in the most creative ways possible. Taking abstract design and code concepts and transforming them into real-world solutions is not just a talent for me – it's a challenge that I am always excited to take on! 
+              I'm an upbeat and creative Software Engineer who's fascinated with everything and anything related to design, the environment, and Web3! My brain is wired to think outside the box in the most creative ways possible. Taking abstract design and code concepts and transforming them into real-world solutions is not just a talent for me – it's a challenge that I am always excited to take on! 
               </p>
               <div className="flex items-center lg:self-start mt-2">
                 <a
-                  href="https://docs.google.com/document/d/1rZi9xU_hVfBiaTgdPBseuPRhPdYhjP4y4fhEpJrGEoQ/edit?usp=sharing"
+                  href="/UlysseKayisha_Resume_23.pdf"
+                  download
                   target={"_blank"}
                   rel="noreferrer"
                   className="flex items-center bg-dark text-light font-cg p-1.5 px-3 tablet:p-2.5 tablet:px-6 text-base tablet:text-lg font-semibold hover:bg-light hover:text-primary border border-solid border-transparent hover:border-dark delay-150"
@@ -53,9 +54,9 @@ const Home = () => {
                 </a>
               </div>
             </div>
-            <div className="self-end md:pb-12 mr-5 xl:opacity-0">
+            {/* <div className="self-end md:pb-12 mr-5 xl:opacity-0">
           <h1 className="font-cg text-black text-sm tablet:text-lg md:text-xl lg:text-2xl">1</h1>
-        </div>
+        </div> */}
           </div>
         
       </section>
