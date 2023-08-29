@@ -9,10 +9,10 @@ const MobileNavigation = () => {
 
     const [openBurger, setOpenBurger] = useState(false)
 
-    const hamburgerIcon = <GiHamburgerMenu className="w-6 h-6 right-5 top-3 absolute cursor-pointer text-primary"
+    const hamburgerIcon = <GiHamburgerMenu className="w-6 h-6 right-5 top-4 absolute cursor-pointer"
     onClick={() => setOpenBurger(!openBurger)}/>
 
-    const closeIcon = <AiOutlineCloseSquare className="w-7 h-7 absolute right-5 top-3 hover:text-white duration-150 ease-in-out cursor-pointer"
+    const closeIcon = <AiOutlineCloseSquare className="w-7 h-7 absolute right-5 top-4 hover:text-white duration-150 ease-in-out cursor-pointer"
     onClick={() => setOpenBurger(!openBurger)}/>
 
     const closeMobileMenu = () => setOpenBurger(false)
@@ -22,7 +22,7 @@ const MobileNavigation = () => {
     <div
     //  className="w-full h-[50px] bg-primary/50 fixed"
      >
-    <nav className="tablet:hidden fixed w-full justify-center flex duration-150 ease-in-out"
+    <nav className="tablet:hidden fixed w-full justify-center flex duration-150 top-5 ease-in-out"
       style={{
         backgroundImage: "url(/img/navbar5.png)",
         backgroundSize: "cover",
