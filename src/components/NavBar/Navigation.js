@@ -8,7 +8,7 @@ const Navigation = () => {
   return (
     <>
     <nav className='tablet:max-2xl:visible hidden tablet:flex'>
-    <header className='fixed top-4 w-full -mb-10 px-32 flex justify-between items-center'> 
+    <header className='fixed top-4 w-full -mb-10 px-12 md:px-32 flex justify-between items-center'> 
             <nav className='text-primary font-cg text-xl font-extrabold'>
                <NavLinks />
             </nav>
