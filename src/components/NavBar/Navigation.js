@@ -8,11 +8,11 @@ const Navigation = () => {
   return (
     <>
     <nav className='tablet:max-2xl:visible hidden tablet:flex'>
-    <header className='fixed top-4 w-full -mb-10 px-12 md:px-32 flex justify-between items-center'> 
+    <header className='fixed top-4 w-full -mb-10 px-12 md:px-32 flex justify-between items-center pt-3'> 
             <nav className='text-primary font-cg text-xl font-extrabold'>
                <NavLinks />
             </nav>
-            <nav className="text-primaryDark flex items-center justify-center flex-wrap pt-5">
+            <nav className="text-primaryDark flex items-center justify-center flex-wrap">
                 <motion.a href="https://twitter.com/kaiusse" target={"_blank"} rel="noreferrer" 
                 whileHover={{y:-4}}
                 whileTap={{scale:0.9}}
