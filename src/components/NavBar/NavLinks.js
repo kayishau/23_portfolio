@@ -18,7 +18,7 @@ const NavLinks = (props) => {
 
     return (
       <>
-        <ul key={content} className="inline-block px-2 tablet:px-4 tablet:mt-1 tablet:delay-150 tablet:hover:bg-primaryDark tablet:hover:text-white tablet:hover:font-bold items-center justify-center cursor-auto tablet:duration-150 ease-in-out lg:text-2xl lg:mt-4">
+        <ul key={content} className="inline-block px-2 tablet:px-4 tablet:mt-1 tablet:delay-150 tablet:hover:bg-primaryDark tablet:hover:text-white tablet:hover:font-bold items-center justify-center cursor-auto tablet:duration-150 ease-in-out lg:text-2xl lg:mt-1 2xl:mt-4">
           <li 
           // initial={animateFrom}
           // animate={animateTo}
