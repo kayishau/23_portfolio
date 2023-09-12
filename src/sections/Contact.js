@@ -48,15 +48,15 @@ const Contact = () => {
               rel="noreferrer"
               className="text-sm md:text-lg text-dark font-cg font-extrabold underline"
             >
-              <span>Calendly:</span>
+              <span>Cal meeting:</span>
             </a>
             <a
-              href="https://calendly.com/ulyssekayisha"
+              href="https://cal.com/kayishau"
               target={"_blank"}
               rel="noreferrer"
               className="text-sm ml-4 md:text-lg text-dark font-cg font-extrabold"
             >
-              <span className="delay-150 hover:bg-primary hover:text-white p-1 duration-150 ease-in-out">Kayisha's calendly</span>
+              <span className="delay-150 hover:bg-primary hover:text-white p-1 duration-150 ease-in-out">Kayisha's Cal</span>
             </a>
             </div>
             
