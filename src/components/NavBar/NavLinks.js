@@ -6,8 +6,8 @@ import { PiGithubLogoFill } from "react-icons/pi";
 const NavLinks = (props) => {
   const navLinks = ["Home", "About", "Skills", "Projects", "Contact"];
 
-  const animateFrom = {opacity: 1, x:0}
-  const animateTo = {opacity: 1, x:0}
+  // const animateFrom = {opacity: 1, x:0}
+  // const animateTo = {opacity: 1, x:0}
 
   const renderNavLinks = (content) => {
     const scrollToId = `${content.toLowerCase()}Section`;
