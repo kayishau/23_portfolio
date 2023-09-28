@@ -36,7 +36,7 @@ const Home = () => {
               </p>
               <div className="flex items-center lg:self-start mt-2">
                 <a
-                  href="https://drive.google.com/file/d/19AakJg4kJSXgR-UdL7G3PxcHhSYoPT84/view?usp=sharing"
+                  href="https://drive.google.com/file/d/12h-MT5_hdhK39vlhfzbutp6ZM3UP5jLz/view?usp=sharing"
                   // download="UlysseKayisha_Resume_23.pdf"
                   target={"_blank"}
                   rel="noreferrer"
