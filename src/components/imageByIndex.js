@@ -1,6 +1,17 @@
 
 export const projectsArray = [
   {
+    title: "ReCentiFi",
+    img: "/img/projects/ReCentiFi.png",
+    video: "",
+    summary:
+      'Built at ETHGlobal NYC | An AI-powered incentivization protocol designed to control access to a suite of tier-gated services. Utilizing Express, NextJS, Typescript, Javascript, Worldcoin - proof of humanity, Polygon ID - issue and verify credentials, Filecoin - storage and compute, and  Uniswap v4 - hook to gate access w/ credentials/NFT. Winner of "Best Use of Polygon ID"',
+    link: "https://github.com/KaiStryker/ReCentiFi",
+    type: "Featured Project",
+    github: "https://github.com/KaiStryker/ReCentiFi",
+    demo: "Coming Soon!",
+  },
+  {
     title: "Community Test Lab",
     img: "/img/projects/ctl.png",
     video: "",
